@@ -10,18 +10,12 @@
 
 # Motivation
 
-Goals for this tutorial:
-* Starting from scratch, we will download, configure, and compile
-  SPECFEM3D_GLOBE, mesh model, and run a regional simulation.
-* Goal 2
-* Goal 3
+This tutorial is designed to take you through the workflow of the
+SPECFEM3D_GLOBE software package. 
 
-Topic:
-* Napa 2014 earthquake
-* Topic 2
-* Topic 3
+We will look at the 2014 Napa earthquake.
 
-Learning objectives:
-* Learn how to setup and run your own simulations using SPECFEM3D_GLOBE
-* Objective 2
-* Objective 3
+By the end of this tutorial, the participants should be able to:
+* bla
+* bla
+* bla
