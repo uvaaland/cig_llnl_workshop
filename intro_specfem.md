@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Table of Contents
+### Table of Contents
 1. [Motivation](/index.md)
 2. [Introduction](/intro_specfem.md)
     1. [SPECFEM](#specfem)
@@ -14,6 +14,6 @@ layout: default
 
 # Introduction
 
-## SPECFEM3D_GLOBE <a name="specfem"></a>
+### SPECFEM3D_GLOBE <a name="specfem"></a>
 
-## Napa Earthquake <a name="napa"></a>
+### Napa Earthquake <a name="napa"></a>
