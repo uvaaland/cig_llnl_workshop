@@ -12,7 +12,7 @@
 
 In this tutorial we will use SPECFEM3D_GLOBE to run regional simulations. We
 will focus on the 2014 Napa earthquake, and look at how to setup and configure
-SPECFEM3D_GLOBE to run a simulation of this event.
+SPECFEM3D_GLOBE to simulate this event.
 
 We will start from scratch and show you how to obtain the source code,
 configure, and compile it. Then we will look at how to prepare the input data,
