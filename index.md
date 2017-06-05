@@ -10,12 +10,20 @@
 
 # Motivation
 
-This tutorial is designed to take you through the workflow of the
-SPECFEM3D_GLOBE software package. 
+In this tutorial we will use SPECFEM3D_GLOBE to run regional simulations. We
+will focus on the 2014 Napa earthquake, and look at how to setup and configure
+SPECFEM3D_GLOBE to run a simulation of this event.
 
-We will look at the 2014 Napa earthquake.
+We will start from scratch and show you how to obtain the source code,
+configure, and compile it. Then we will look at how to prepare the input data,
+which includes the source characteristics, receiver locations, and other
+parameters. Once the input parameters have been set, we go on to create a mesh
+for our model, and then run the solver. The solver will produce some output
+data and we will look at how to visualize these data.
 
-By the end of this tutorial, the participants should be able to:
-* bla
-* bla
-* bla
+By the end of this tutorial, you should have a good idea of how to:
+    - Obtain and setup SPECFEM3D_GLOBE in your own environment.
+    - Run a simulation using an event of your own interest
+    - Change the resolution of the simulation
+    - Use different earth models
+    - Visualize the simulation output
