@@ -22,8 +22,8 @@ for our model, and then run the solver. The solver will produce some output
 data and we will look at how to visualize these data.
 
 By the end of this tutorial, you should have a good idea of how to:
-    - Obtain and setup SPECFEM3D_GLOBE in your own environment.
-    - Run a simulation using an event of your own interest
-    - Change the resolution of the simulation
-    - Use different earth models
-    - Visualize the simulation output
+* Obtain and setup SPECFEM3D_GLOBE in your own environment.
+* Run a simulation using an event of your own interest
+* Change the resolution of the simulation
+* Use different earth models
+* Visualize the simulation output
