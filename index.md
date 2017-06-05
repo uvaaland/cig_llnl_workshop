@@ -5,13 +5,18 @@ software package. More information can be found in the SPECFEM3D_GLOBE manual:
 * [HTML version](http://specfem3d-globe.readthedocs.io/en/latest/)
 
 
+
 ## Table of Contents
 1. [Getting Started with SPECFEM3D_GLOBE](#getting_started)
     1. [Obtain the Source Code](#source_code)
     2. [Configure](#configuration)
     3. [Compile](#compilation)
+2. [Prepare the Input Files](#input)
+
+
 
 ## Getting Started with SPECFEM3D_GLOBE <a name="getting_started"></a>
+
 
 ### Obtain the Source Code <a name="source_code"></a>
 * **For this workshop:**
@@ -53,3 +58,15 @@ repository's root folder (`./specfem3d_globe`)
 
       ./configure CC=mpicc CXX=icpc FC=ifort MPIFC=mpif90
 
+
+### Compile <a name="compilation"></a>
+After configuration, we can compile the source code my typing `make all` in the
+repository's root folder. The resulting binary files can be found in the
+`./specfem3d_globe/bin` folder.
+
+
+
+## Prepare the Input Files <a name="input"></a>
+**CMTSOLUTION**
+**STATIONS**
+**Par_file**
