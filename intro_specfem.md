@@ -8,9 +8,6 @@ layout: default
     1. [SPECFEM](#specfem)
     2. [Napa](#napa)
 3. [Getting Started](/getting_started.md)
-4. [Meshing](/mesh.md)
-5. [Solving](/solve.md)
-6. [Example](/example.md)
 
 # Introduction
 

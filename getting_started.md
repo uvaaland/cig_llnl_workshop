@@ -10,9 +10,6 @@ layout: default
     2. [Configure](#configuration)
     3. [Compile](#compilation)
     4. [Prepare the Input](#prepare_input)
-4. [Meshing](/mesh.md)
-5. [Solving](/solve.md)
-6. [Example](/example.md)
 
 # Getting Started
 
