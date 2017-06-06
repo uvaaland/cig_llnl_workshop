@@ -14,7 +14,7 @@ layout: default
 ## Part I: Setting up SPECFEM3D_GLOBE
 
 In the first part of the tutorial, we will go through the three steps that are
-needed to setup SPECFEM3D_GLOBE:
+needed to set up SPECFEM3D_GLOBE:
 * Obtain the Source Code
 * Configuration
 * Compilation
@@ -64,7 +64,7 @@ that we will use in the remaining parts of this tutorial. The resulting binary
 files can be found in the `./specfem3d_globe/bin` folder.
 
 ---
-In this section we have looked at how to setup, configure, and compile
+In this section we have looked at how to set up, configure, and compile
 SPECFEM3D_GLOBE. In the next section we move on to **Part II** of the tutorial, and
 will look at how to prepare the input data for the regional simulation.
 

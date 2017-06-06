@@ -16,11 +16,11 @@
 
 ## Overview
 
-This tutorial will show you how to setup and run a regional simulation using
+This tutorial will show you how to set up and run a regional simulation using
 SPECFEM3D_GLOBE.
 
 The tutorial consists of three parts. In the **first part**, we will look at how to
-setup SPECFEM3D_GLOBE. This includes: how to obtain the source code, how to
+set up SPECFEM3D_GLOBE. This includes: how to obtain the source code, how to
 configure, and how to compile SPECFEM3D_GLOBE. In the **second part**, we will go
 through the steps that are needed to run a regional simulation. We will look at
 how to prepare the relevant input data and parameters, show you how to mesh the
@@ -57,7 +57,7 @@ Lastly, it also touches upon the subject of running adjoint simulations.
 ---
 
 By the end of this tutorial, you should have a good idea of how to:
-* Obtain and setup SPECFEM3D_GLOBE in your own environment.
+* Obtain and set up SPECFEM3D_GLOBE in your own environment.
 * Run a simulation using an event of your own interest
 * Change the resolution of the simulation
 * Use different earth models
