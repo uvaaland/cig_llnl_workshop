@@ -15,10 +15,19 @@ configure, and compile SPECFEM3D_GLOBE. We will look at how to provide the
 relevant input data, show you how to create a mesh for the regional model, and
 how to run the solver itself.
 
-
 For this tutorial, we will focus on the 2014 Napa earthquake for our regional
 simulations.
 
+Tutorial at a glance:
+
+**Introduction:** Short introduction about SPECFEM3D_GLOBE and the Napa
+earthquake
+
+**Getting Started:** Shows you how to obtain the source code, configure, and
+compile SPECFEM3D_GLOBE. It also shows you how to prepare the relevant input
+data.
+
+**Meshing:**
 
 ![SPECFEM3D_GLOBE](/Fig/cover-small.jpeg)
 
