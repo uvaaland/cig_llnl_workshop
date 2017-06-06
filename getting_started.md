@@ -11,8 +11,13 @@ layout: default
 6. [Resources](resources.md)
 
 
-# Part I: Setting up SPECFEM3D_GLOBE
+## Part I: Setting up SPECFEM3D_GLOBE
 
+In the first part of the tutorial, we will go through the three steps that are
+needed to setup SPECFEM3D_GLOBE:
+* Obtain the Source Code
+* Configuration
+* Compilation
 
 ### Obtain the Source Code <a name="source_code"></a>
 
