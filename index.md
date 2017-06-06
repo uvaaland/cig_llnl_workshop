@@ -19,9 +19,9 @@ how to run the solver itself.
 For this tutorial, we will focus on the 2014 Napa earthquake for our regional
 simulations.
 
-<p align="center">
-  <img src="https://github.com/uvaaland/cig_llnl_workshop/blob/gh-pages/Fig/cover-small.jpeg">
-</p>
+
+![SPECFEM3D_GLOBE](/Fig/small-cover.jpeg)
+
 
 By the end of this tutorial, you should have a good idea of how to:
 * Obtain and setup SPECFEM3D_GLOBE in your own environment.
