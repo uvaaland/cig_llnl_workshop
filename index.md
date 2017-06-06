@@ -64,4 +64,4 @@ By the end of this tutorial, you should have a good idea of how to:
 * Visualize the simulation output
 
 
-[Next topic](/intro_specfem.md)
+[Next section](/intro_specfem.md)

@@ -61,4 +61,4 @@ postseismic fault creep."
 
 ---
 
-[Previous topic](/index.md) -- [Next topic](/getting_started.md)
+[Previous section](/index.md) -- [Next section](/getting_started.md)

@@ -64,5 +64,8 @@ that we will use in the remaining parts of this tutorial. The resulting binary
 files can be found in the `./specfem3d_globe/bin` folder.
 
 ---
+In this section we have looked at how to setup, configure, and compile
+SPECFEM3D_GLOBE. In the next section we move into Part II of the tutorial, and
+will look at how to prepare the input data for the regional simulation.
 
-[Previous topic](/intro_specfem.md) -- [Next topic](/getting_started.md)
+[Previous section](/intro_specfem.md) -- [Next section](/getting_started.md)
