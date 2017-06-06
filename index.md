@@ -20,6 +20,9 @@ For this tutorial, we will focus on the 2014 Napa earthquake for our regional
 simulations.
 
 
+![alt text](/Fig/cover-small.jpeg)
+
+
 By the end of this tutorial, you should have a good idea of how to:
 * Obtain and setup SPECFEM3D_GLOBE in your own environment.
 * Run a simulation using an event of your own interest
