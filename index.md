@@ -2,12 +2,15 @@
 ### Table of Contents
 1. [Overview](/index.md)
 2. [Introduction](/intro_specfem.md)
-3. [Part I: Setting up SPECFEM3D_GLOBE](/partI.md)
-4. [Part II: Regional Simulation](/partII.md)
+3. [Part I: Setting up SPECFEM3D_GLOBE](/getting_started.md)
+4. [Part II: Regional Simulation](/prep_data.md)
     1. [Preparing the Data](/prep_data.md)
-    2. [Meshing](/mesh.md)
-    3. [Solving](/solve.md)
+    2. [Meshing the Model](/mesh.md)
+    3. [Running the Solver](/solve.md)
 5. [Part III: Additional Topics](/partIII.md)
+    1. [Visualization](/visualization.md)
+    2. [ShakeMovie Comparison](/shakeMovie.md)
+    3. [Adjont Simulation](/adjont_sim.md)
 
 # Overview
 
@@ -33,8 +36,6 @@ data.
 
 **Meshing:**
 
-
-![SPECFEM3D_GLOBE](/Fig/cover-small.jpeg)
 
 
 By the end of this tutorial, you should have a good idea of how to:
