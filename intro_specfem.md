@@ -3,11 +3,12 @@ layout: default
 ---
 
 ### Table of Contents
-1. [Motivation](/index.md)
+1. [Overview](/index.md)
 2. [Introduction](/intro_specfem.md)
-    1. [SPECFEM](#specfem)
-    2. [Napa](#napa)
-3. [Getting Started](/getting_started.md)
+3. [Part I: Setting up SPECFEM3D_GLOBE](/getting_started.md)
+4. [Part II: Regional Simulation](/prep_data.md)
+5. [Part III: Additional Topics](/partIII.md)
+6. [Resources](resources.md)
 
 # Introduction
 
@@ -34,6 +35,13 @@ Ampuero, and Käser 2009; Wilcox et al. 2010; De Basabe and Sen 2010; Étienne e
 al. 2010), with optimized efficiency because of its tensorized basis functions
 (Wilcox et al. 2010; Acosta Minolia and Kopriva 2011). In particular, it can
 accurately handle very distorted mesh elements (Oliveira and Seriani 2011)."
+
+More information about the software package can be found in the SPECFEM3D_GLOBE
+manual:
+
+* [PDF version](https://geodynamics.org/cig/software/specfem3d_globe/specfem3d_globe-manual.pdf)
+* [HTML version](http://specfem3d-globe.readthedocs.io/en/latest/)
+
 
 
 ### Napa Earthquake <a name="napa"></a>
