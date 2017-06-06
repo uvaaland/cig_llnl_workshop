@@ -20,7 +20,7 @@ For this tutorial, we will focus on the 2014 Napa earthquake for our regional
 simulations.
 
 <p align="center">
-  <img src="/Fig/cover-small.jpeg">
+  <img src="https://github.com/uvaaland/cig_llnl_workshop/blob/gh-pages/Fig/cover-small.jpeg">
 </p>
 
 By the end of this tutorial, you should have a good idea of how to:
