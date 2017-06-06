@@ -20,7 +20,7 @@ For this tutorial, we will focus on the 2014 Napa earthquake for our regional
 simulations.
 
 
-![SPECFEM3D_GLOBE](/Fig/small-cover.jpeg)
+![SPECFEM3D_GLOBE](/Fig/cover-small.jpeg)
 
 
 By the end of this tutorial, you should have a good idea of how to:
