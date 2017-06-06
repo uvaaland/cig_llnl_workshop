@@ -58,6 +58,8 @@ system that alerted seismologists several seconds before the damaging shear
 waves arrived, temporary changes in springs and wells, and the potential for
 postseismic fault creep."
 
+---
+
 [Previous topic](/index.md)
 
 [Next topic](/getting_started.md)
