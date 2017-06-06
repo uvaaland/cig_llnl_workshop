@@ -10,7 +10,8 @@ layout: default
 5. [Part III: Additional Topics](/partIII.md)
 6. [Resources](resources.md)
 
-# Introduction
+
+## Introduction
 
 NOTE: THE BELOW PARAGRAPHS ARE ONLY TEMPORARY
 

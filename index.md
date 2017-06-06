@@ -14,7 +14,7 @@
 6. [Resources](resources.md)
 
 
-# Overview
+## Overview
 
 This tutorial will show you how to setup and run a regional simulation using
 SPECFEM3D_GLOBE.
