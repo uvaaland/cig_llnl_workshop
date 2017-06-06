@@ -30,3 +30,5 @@ By the end of this tutorial, you should have a good idea of how to:
 * Use different earth models
 * Visualize the simulation output
 
+
+Next topic: [Introduction](/intro_specfem.md)
