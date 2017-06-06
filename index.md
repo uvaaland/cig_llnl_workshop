@@ -1,11 +1,11 @@
 
 ### Table of Contents
-1. [Motivation](/index.md)
+1. [Overview](/index.md)
 2. [Introduction](/intro_specfem.md)
 3. [Getting Started](/getting_started.md)
 
 
-# Motivation
+# Overview
 
 In this tutorial we will use SPECFEM3D_GLOBE to run regional simulations. We
 will focus on the 2014 Napa earthquake, and look at how to setup and configure
