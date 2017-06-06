@@ -32,6 +32,9 @@ For our regional simulations, we will be looking at the 2014 Napa earthquake,
 which is further described in the introduction section.
 
 
+![SPECFEM3D_GLOBE](/Fig/cover-small.jpeg)
+
+
 ### Tutorial at a glance:
 
 **Introduction:** Brief description of the SPECFEM3D_GLOBE software package and the Napa
@@ -61,4 +64,4 @@ By the end of this tutorial, you should have a good idea of how to:
 * Visualize the simulation output
 
 
-Next topic: [Introduction](/intro_specfem.md)
+[Next topic](/intro_specfem.md)
