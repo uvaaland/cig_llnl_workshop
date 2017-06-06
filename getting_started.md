@@ -60,4 +60,4 @@ After configuration, we can compile the source code by typing `make` in the repo
 
 ---
 
-[Previous topic](/index.md) -- [Next topic](/getting_started.md)
+[Previous topic](/intro_specfem.md) -- [Next topic](/getting_started.md)
