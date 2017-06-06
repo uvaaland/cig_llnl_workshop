@@ -56,6 +56,13 @@ configuration with other compilers.
 
       ./configure CC=icc CXX=icpc FC=ifort MPIFC=mpif90
 
+
+### Compilation
+Once we have configured SPECFEM3D_GLOBE, we can compile the source code by
+typing `make all` in the root directory. This will produce all the binary files
+that we will use in the remaining parts of this tutorial. The resulting binary
+files can be found in the `./specfem3d_globe/bin` folder.
+
 ---
 
 [Previous topic](/intro_specfem.md) -- [Next topic](/getting_started.md)
