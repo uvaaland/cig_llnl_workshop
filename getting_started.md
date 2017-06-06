@@ -25,12 +25,11 @@ For this workshop we will get the source code by cloning this [GitHub repository
 
       git clone https://github.com/uvaaland/specfem3d_globe.git
 
-In general, the current, stable release of SPECFEM3D_GLOBE can be downloaded as
-a **tar.gz** file at the [CIG website](https://geodynamics.org/cig/software/specfem3d_globe/).
-
-If you want the development code, you can clone the [GitHub repository](https://github.com/geodynamics/specfem3d_globe):
-
-      git clone --recursive --branch devel https://github.com/geodynamics/specfem3d_globe.git
+In general, the current, stable release of SPECFEM3D_GLOBE can be downloaded at
+the CIG website, while the development code can be obtained by cloning the
+GitHub repository:
+* [Stable release](https://geodynamics.org/cig/software/specfem3d_globe/)
+* [Development code](https://github.com/geodynamics/specfem3d_globe)
 
 ---
 
