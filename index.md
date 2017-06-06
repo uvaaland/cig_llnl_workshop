@@ -11,6 +11,7 @@
     1. [Visualization](/visualization.md)
     2. [ShakeMovie Comparison](/shakeMovie.md)
     3. [Adjont Simulation](/adjont_sim.md)
+6. [Resources](resources.md)
 
 # Overview
 
