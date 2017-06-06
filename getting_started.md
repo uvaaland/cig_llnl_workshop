@@ -3,15 +3,16 @@ layout: default
 ---
 
 ### Table of Contents
-1. [Motivation](/index.md)
+1. [Overview](/index.md)
 2. [Introduction](/intro_specfem.md)
-3. [Getting Started](/getting_started.md)
-    1. [Obtain the Source Code](#source_code)
-    2. [Configure](#configuration)
-    3. [Compile](#compilation)
-    4. [Prepare the Input](#prepare_input)
+3. [Part I: Setting up SPECFEM3D_GLOBE](/getting_started.md)
+4. [Part II: Regional Simulation](/prep_data.md)
+5. [Part III: Additional Topics](/partIII.md)
+6. [Resources](resources.md)
 
-# Getting Started
+
+# Part I: Setting up SPECFEM3D_GLOBE
+
 
 ### Obtain the Source Code <a name="source_code"></a>
 
@@ -57,8 +58,6 @@ In order to generate the `Makefile`s, we need to configure SPECFEM3D_GLOBE. Here
 ### Compile <a name="compilation"></a>
 After configuration, we can compile the source code by typing `make` in the repository's root folder. The resulting binary files can be found in the `./specfem3d_globe/bin` folder.
 
+---
 
-## Prepare the Input Files <a name="prepare_input"></a>
-* **CMTSOLUTION**
-* **STATIONS**
-* **Par_file**
+[Previous topic](/index.md) -- [Next topic](/getting_started.md)
