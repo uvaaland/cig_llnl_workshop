@@ -23,7 +23,9 @@ needed to set up SPECFEM3D_GLOBE:
 
 For this workshop we will get the source code by cloning this [GitHub repository](https://github.com/uvaaland/specfem3d):
 
+```shell
       git clone https://github.com/uvaaland/specfem3d_globe.git
+```
 
 In general, the current, stable release of SPECFEM3D_GLOBE can be downloaded at
 the CIG website, while the development code can be obtained by cloning the
@@ -39,8 +41,10 @@ configuration with other compilers.
 
 * **Step 1:** Load the `Intel compilers` by typing the following in the command line
 
+```shell
       module load intel/16.0/64/16.0.4.258 intel-mpi/intel/5.1.3/64 
-  
+```
+
 * **Step 2:** Check that the compilers have been loaded
 
 ```shell
