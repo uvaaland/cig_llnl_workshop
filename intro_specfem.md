@@ -17,25 +17,21 @@ NOTE: THE BELOW PARAGRAPHS ARE ONLY TEMPORARY
 
 ### SPECFEM3D_GLOBE <a name="specfem"></a>
 
-"The software package SPECFEM3D_GLOBE simulates three-dimensional global and
+The software package SPECFEM3D_GLOBE simulates three-dimensional global and
 regional seismic wave propagation and performs full waveform imaging (FWI) or
-adjoint tomography based upon the spectral-element method (SEM). The SEM is a
-continuous Galerkin technique (Tromp, Komatitsch, and Liu 2008; Peter et al.
-2011), which can easily be made discontinuous (Bernardi, Maday, and Patera
-1994; Chaljub 2000; Kopriva, Woodruff, and Hussaini 2002; Chaljub, Capdeville,
-and Vilotte 2003; Legay, Wang, and Belytschko 2005; Kopriva 2006; Wilcox et al.
-2010; Acosta Minolia and Kopriva 2011); it is then close to a particular case
-of the discontinuous Galerkin technique (Reed and Hill 1973; Lesaint and
-Raviart 1974; Arnold 1982; Johnson and Pitkäranta 1986; Bourdel, Mazet, and
-Helluy 1991; Falk and Richter 1999; Hu, Hussaini, and Rasetarinera 1999;
-Cockburn, Karniadakis, and Shu 2000; Giraldo, Hesthaven, and Warburton 2002;
-Rivière and Wheeler 2003; Monk and Richter 2005; Grote, Schneebeli, and
-Schötzau 2006; Ainsworth, Monk, and Muniz 2006; Bernacki, Lanteri, and Piperno
-2006; Dumbser and Käser 2006; De Basabe, Sen, and Wheeler 2008; Puente,
-Ampuero, and Käser 2009; Wilcox et al. 2010; De Basabe and Sen 2010; Étienne et
-al. 2010), with optimized efficiency because of its tensorized basis functions
-(Wilcox et al. 2010; Acosta Minolia and Kopriva 2011). In particular, it can
-accurately handle very distorted mesh elements (Oliveira and Seriani 2011)."
+adjoint tomography based upon the spectral-element method (SEM). 
+
+It has very good accuracy and convergence properties. The spectral element
+approach admits spectral rates of convergence and allows exploiting
+(hp)-convergence schemes. It is also very well suited to parallel
+implementation on very large supercomputers as well as on clusters of GPU
+accelerating graphics cards.
+
+Effects due to lateral variations in compressional-wave speed, shear-wave
+speed, density, a 3D crustal model, ellipticity, topography and bathymetry, the
+oceans, rotation, and self-gravitation are included. The package can
+accommodate full 21-parameter anisotropy as well as lateral variations in attenuation.
+Adjoint capabilities and finite-frequency kernel simulations are also included.
 
 More information about the software package can be found in the SPECFEM3D_GLOBE
 manual:
