@@ -13,8 +13,6 @@ layout: default
 
 ## Introduction
 
-NOTE: THE BELOW PARAGRAPHS ARE ONLY TEMPORARY
-
 ### SPECFEM3D_GLOBE <a name="specfem"></a>
 
 The software package SPECFEM3D_GLOBE simulates three-dimensional global and
@@ -39,6 +37,8 @@ manual:
 * [PDF version](https://geodynamics.org/cig/software/specfem3d_globe/specfem3d_globe-manual.pdf)
 * [HTML version](http://specfem3d-globe.readthedocs.io/en/latest/)
 
+
+![SPECFEM3D_GLOBE](/Fig/cover-small.jpeg)
 
 
 ### Napa Earthquake <a name="napa"></a>
