@@ -51,7 +51,16 @@ highlighted in the following tree-structure:
 ```
 
 #### Explanation
+* **DATA:**  Folder that holds all the parameter files that are to be used in the
+  simulation.
 
+  * STATIONS: Contains the names and locations for all the stations.
+  * CMTSOLUTION: Contains the source characteristics.
+  * Par_file: Contains the simulation parameters.
+
+* **OUTPUT_FILES:** Folder where the output seismograms are stored.
+* **DATABASES_MPI:** Folder where the
+* **src:** Folder where the SPECFEM3D_GLOBE source code is located.
 
 ### Configuration
 In order to generate the `Makefile`, we need to configure SPECFEM3D_GLOBE. We
