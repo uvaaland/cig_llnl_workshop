@@ -40,8 +40,9 @@ manual:
 
 ![SPECFEM3D_GLOBE](/Fig/cover-small.jpeg)
 
-<img src="Fig/cover-small.jpeg"></img>
-
+<p align="center">
+  <img src="Fig/cover-small.jpeg" alt="SPECFEM3D_GLOBE">
+</p>
 
 ### Napa Earthquake <a name="napa"></a>
 
