@@ -45,7 +45,7 @@ manual:
 
 ### Napa Earthquake <a name="napa"></a>
 
-"The 2014 South Napa earthquake occurred in the North San Francisco Bay Area on
+The 2014 South Napa earthquake occurred in the North San Francisco Bay Area on
 August 24 at 03:20:44 Pacific Daylight Time. At 6.0 on the moment magnitude
 scale and with a maximum Mercalli intensity of VIII (Severe) the event was the
 largest in the San Francisco Bay Area since the 1989 Loma Prieta earthquake. It
@@ -55,11 +55,12 @@ in the range of $362 million to 1 billion, with one person killed and 200
 injured. Other aspects of the event included an experimental earthquake warning
 system that alerted seismologists several seconds before the damaging shear
 waves arrived, temporary changes in springs and wells, and the potential for
-postseismic fault creep."
+postseismic fault creep.
 
-
-<video src="Fig/orange.mp4" controls preload></video>
-
+<figure>
+  <video src="Fig/orange.mp4" controls preload></video>
+  <figcaption>Shake Movie</figcaption>
+</figure>
 
 ---
 
