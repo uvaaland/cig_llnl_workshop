@@ -31,16 +31,17 @@ oceans, rotation, and self-gravitation are included. The package can
 accommodate full 21-parameter anisotropy as well as lateral variations in attenuation.
 Adjoint capabilities and finite-frequency kernel simulations are also included.
 
+
+<p align="center">
+  <img src="Fig/cover-small.jpeg" alt="SPECFEM3D_GLOBE">
+</p>
+
+
 More information about the software package can be found in the SPECFEM3D_GLOBE
 manual:
 
 * [PDF version](https://geodynamics.org/cig/software/specfem3d_globe/specfem3d_globe-manual.pdf)
 * [HTML version](http://specfem3d-globe.readthedocs.io/en/latest/)
-
-
-<p align="center">
-  <img src="Fig/cover-small.jpeg" alt="SPECFEM3D_GLOBE">
-</p>
 
 
 ### Napa Earthquake <a name="napa"></a>
