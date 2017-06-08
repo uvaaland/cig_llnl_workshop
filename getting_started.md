@@ -43,6 +43,7 @@ configuration with other compilers.
   
 * **Step 2:** Check that the compilers have been loaded
 
+```shell
       mpicc --version
       # icc (ICC) 16.0.4 20160811
       # Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
@@ -50,7 +51,7 @@ configuration with other compilers.
       mpif90 --version
       # ifort (IFORT) 16.0.4 20160811
       # Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
-
+```
 
 * **Step 3:** Configure SPECFEM3D_GLOBE by running the following command in the root folder (`./specfem3d_globe`):
 
