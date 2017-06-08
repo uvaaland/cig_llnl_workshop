@@ -13,20 +13,23 @@
 This tutorial will show you how to set up and run a regional simulation using
 SPECFEM3D_GLOBE.
 
-The tutorial consists of three parts. In the **first part**, we will look at how to
-set up SPECFEM3D_GLOBE. This includes: how to obtain the source code, how to
-configure, and how to compile SPECFEM3D_GLOBE. In the **second part**, we will go
-through the steps that are needed to run a regional simulation. We will look at
-how to prepare the relevant input data and parameters, show you how to mesh the
-regional model, and how to run the solver itself. If time permits, we also have
-a **third part**, where we explore the topics of visualization, comparing our
-simulation data with the ShakeMovie synthetics, and adjoint simulations.
+The tutorial consists of three parts:
 
-For our regional simulations, we will be looking at the 2014 Napa earthquake,
-which is further described in the introduction section.
+In the **first part**, we will look at how to set up SPECFEM3D_GLOBE. 
+This includes: how to obtain the source code, how to configure, and how to 
+compile SPECFEM3D_GLOBE.
 
+In the **second part**, we will go through the steps that are needed to run
+a regional simulation. We will look at how to prepare the relevant input 
+data and parameters, show you how to mesh the regional model, and how to 
+run the solver itself.
 
-![SPECFEM3D_GLOBE](/Fig/cover-small.jpeg)
+If time permits, we also have a **third part**, where we explore the topics 
+of visualization, comparing our simulation data with the ShakeMovie 
+synthetics, and adjoint simulations.
+
+For our regional simulations, we will be looking at the **2014 Napa
+earthquake**, which is further described in the introduction section.
 
 
 ### Tutorial at a glance:
