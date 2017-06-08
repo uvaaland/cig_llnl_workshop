@@ -47,10 +47,20 @@ Now that we have downloaded the source code, we will take a look inside:
      # m4              SEM
 ```
 
-The files to notice are:
-DATA: where the parameter files for the simulations are located
-OUTPUT_FILES: where the simulation output will be located
-DATABASES_MPI: where some output will also be located
+The relevant file structure looks as follows:
+
+
+
+```
+      ./specfem3d_globe
+      +-- DATA
+      |   +-- STATIONS
+      |   +-- CMTSOLUTION
+      |   +-- Par_file
+      +-- OUTPUT_FILES
+      +-- DATABASES_MPI
+      +-- src
+```
 
 
 ### Configuration
