@@ -59,7 +59,9 @@ postseismic fault creep.
 
 <figure>
   <video src="Fig/orange.mp4" controls preload></video>
-  <figcaption>Shake Movie</figcaption>
+  <figcaption>Visualization of the Napa earthquake produced by the <a
+  href="http://global.shakemovie.princeton.edu/home.jsp">Global
+  ShakeMovie project</a>.</figcaption>
 </figure>
 
 ---
