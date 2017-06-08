@@ -33,22 +33,10 @@ GitHub repository:
 * [Stable release](https://geodynamics.org/cig/software/specfem3d_globe/)
 * [Development code](https://github.com/geodynamics/specfem3d_globe)
 
-Now that we have downloaded the source code, we will take a look inside:
-
-```shell
-     cd specfem3d_globe/
-     ls
-
-     # AUTHORS         configure.ac                 EXAMPLES        Makefile.in
-     # setup           change_simulation_type.pl    DATA            flags.guess    
-     # OUTPUT_FILES    src                          config.guess    DATABASES_MPI
-     # install-sh      tests                        config.sub      doc
-     # LICENSE         README.md                    utils           configure
-     # m4              SEM
-```
-
-The relevant file structure looks as follows:
-
+Now that we have downloaded the source code, we will take a look at what's
+inside. The repository includes a whole range of files that serve different
+purposes, but the key files and folders that are relevant to this tutorial are
+highlighted in the following tree-structure:
 
 
 ```
@@ -61,6 +49,8 @@ The relevant file structure looks as follows:
       +-- DATABASES_MPI
       +-- src
 ```
+
+#### Explanation
 
 
 ### Configuration
