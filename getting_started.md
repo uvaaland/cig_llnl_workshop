@@ -61,7 +61,7 @@ highlighted in the following tree-structure:
   * Par_file: Contains the simulation parameters.
 
 * **OUTPUT_FILES:** Folder where the output seismograms are stored.
-* **DATABASES_MPI:** Folder where the
+* **DATABASES_MPI:** Folder where the...
 * **src:** Folder where the SPECFEM3D_GLOBE source code is located.
 
 ### Configuration
