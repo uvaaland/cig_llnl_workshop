@@ -55,8 +55,9 @@ configuration with other compilers.
 
 * **Step 3:** Configure SPECFEM3D_GLOBE by running the following command in the root folder (`./specfem3d_globe`):
 
+```shell
       ./configure CC=icc CXX=icpc FC=ifort MPIFC=mpif90
-
+```
 
 ### Compilation
 Once we have configured SPECFEM3D_GLOBE, we can compile the source code by
