@@ -38,11 +38,10 @@ manual:
 * [HTML version](http://specfem3d-globe.readthedocs.io/en/latest/)
 
 
-![SPECFEM3D_GLOBE](/Fig/cover-small.jpeg)
-
 <p align="center">
   <img src="Fig/cover-small.jpeg" alt="SPECFEM3D_GLOBE">
 </p>
+
 
 ### Napa Earthquake <a name="napa"></a>
 
@@ -58,7 +57,9 @@ system that alerted seismologists several seconds before the damaging shear
 waves arrived, temporary changes in springs and wells, and the potential for
 postseismic fault creep."
 
+
 <video src="Fig/orange.mp4" controls preload></video>
+
 
 ---
 
