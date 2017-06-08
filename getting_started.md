@@ -21,7 +21,7 @@ needed to set up SPECFEM3D_GLOBE:
 
 ### Obtain the Source Code <a name="source_code"></a>
 
-For this workshop we will get the source code by cloning this [GitHub repository](https://github.com/uvaaland/specfem3d):
+For this workshop we will get the source code by cloning this [GitHub repository](https://github.com/uvaaland/specfem3d_globe):
 
 ```shell
       git clone https://github.com/uvaaland/specfem3d_globe.git
