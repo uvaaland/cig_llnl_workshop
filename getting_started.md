@@ -33,6 +33,8 @@ GitHub repository:
 * [Stable release](https://geodynamics.org/cig/software/specfem3d_globe/)
 * [Development code](https://github.com/geodynamics/specfem3d_globe)
 
+
+#### File Structure
 Now that we have downloaded the source code, we will take a look at what's
 inside. The repository includes a whole range of files that serve different
 purposes, but the key files and folders that are relevant to this tutorial are
