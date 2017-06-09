@@ -21,7 +21,13 @@ need to take are the following:
 
 ### Run the Solver
 
+After editing the parameter files and generating the mesh, we are ready to run
+the solver itself.
 
+- [x] Edit the parameter files
+- [x] Recompile if any parameter in the `Par_file` was changed
+- [x] Generate the model mesh
+- [ ] Run the solver
 
 
 
