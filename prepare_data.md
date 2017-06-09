@@ -95,3 +95,53 @@ set up the simulation to our liking, we need to:
   In this tutorial, we will only work with a subset of the parameters that is
   shown below. For a full description of all the parameters in the `Par_file`,
   please consult the [SPECFEM3D_GLOBE manual](http://specfem3d-globe.readthedocs.io/en/latest/).
+
+      # forward or adjoint simulation
+      SIMULATION_TYPE                 = 1   # set to 1 for forward simulations, 2 for adjoint simulations for sources, and 3 for kernel simulations
+      NOISE_TOMOGRAPHY                = 0   # flag of noise tomography, three steps (1,2,3). If earthquake simulation, set it to 0.
+      SAVE_FORWARD                    = .false.   # save last frame of forward simulation or not
+      
+      # number of chunks (1,2,3 or 6)
+      NCHUNKS                         = 1
+      
+      # angular width of the first chunk (not used if full sphere with six chunks)
+      ANGULAR_WIDTH_XI_IN_DEGREES     = 90.d0   # angular size of a chunk
+      ANGULAR_WIDTH_ETA_IN_DEGREES    = 90.d0
+      CENTER_LATITUDE_IN_DEGREES      = 40.d0
+      CENTER_LONGITUDE_IN_DEGREES     = 10.d0
+      GAMMA_ROTATION_AZIMUTH          = 20.d0
+      
+      # number of elements at the surface along the two sides of the first chunk
+      # (must be multiple of 16 and 8 * multiple of NPROC below)
+      NEX_XI                          = 128
+      NEX_ETA                         = 128
+      
+      # number of MPI processors along the two sides of the first chunk
+      NPROC_XI                        = 8
+      NPROC_ETA                       = 8
+
+      ...
+
+      # 3D model
+      MODEL                           = s362ani
+
+      # parameters describing the Earth model
+      OCEANS                          = .true.
+      ELLIPTICITY                     = .true.
+      TOPOGRAPHY                      = .true.
+      GRAVITY                         = .true.
+      ROTATION                        = .true.
+      ATTENUATION                     = .true.
+
+      # absorbing boundary conditions for a regional simulation
+      ABSORBING_CONDITIONS            = .true.
+
+      # record length in minutes
+      RECORD_LENGTH_IN_MINUTES        = 25.0d0
+
+      ...
+
+      # path to store the local database files on each node
+      LOCAL_PATH                      = ./DATABASES_MPI
+
+      ...
