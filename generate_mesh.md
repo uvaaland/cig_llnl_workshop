@@ -60,6 +60,11 @@ processors. In order to submit our job, we type the following in the command lin
 
 we can then monitor the job by typing `squeue`.
 
+<p align="center">
+  <img src="Fig/regional_mesh.jpeg" alt="Regional mesh">
+</p>
+
+
 Once the job has finished, the output can be found in the `OUTPUT_FILES/`
 folder. We can check to see if the mesher ran successfully by inspecting the
 `OUTPUT_FILES/output_mesher.txt` file.
@@ -67,6 +72,8 @@ folder. We can check to see if the mesher ran successfully by inspecting the
 This file contains information about the mesh, including the number of spectral 
 elements in the mesh, and the size of the time step that will be used when 
 running the solver.
+
+#### Model Resolution
 
 The shortest period that is resolved in the seismograms can be determined by
 
