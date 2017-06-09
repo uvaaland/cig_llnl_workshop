@@ -67,4 +67,4 @@ postseismic fault creep.
 
 ---
 
-[Previous section](/index.md) -- [Next section](/getting_started.md)
+[Previous section](/index.md) -- [Next section](/setup_specfem3d.md)
