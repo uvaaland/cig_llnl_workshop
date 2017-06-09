@@ -62,7 +62,7 @@ and monitor the job by typing `squeue`.
 
 This simulation will take about XX minutes to finish. Once the job is done, the
 results can be found in the `OUTPUT_FILES/` folder. Check the
-`OUTPUT_FILES/output_solver.txt` file to check that the solver ran
+`OUTPUT_FILES/output_solver.txt` file to make sure that the solver ran
 successfully.
 
 ---
