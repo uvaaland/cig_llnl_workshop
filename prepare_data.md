@@ -91,4 +91,7 @@ set up the simulation to our liking, we need to:
 
 * **Step 3:** Set the relevant simulation parameters in the `Par_file`.
 
-
+  The `Par_file` is the file where most of the simulation parameters are set.
+  In this tutorial, we will only work with a subset of the parameters that is
+  shown below. For a full description of all the parameters in the `Par_file`,
+  please consult the [SPECFEM3D_GLOBE manual](http://specfem3d-globe.readthedocs.io/en/latest/).
