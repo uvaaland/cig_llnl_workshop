@@ -110,4 +110,4 @@ In this section we have looked at how to set up, configure, and compile
 SPECFEM3D_GLOBE. In the next section we move on to **Part II** of the tutorial, and
 will look at how to prepare the input data for the regional simulation.
 
-[Previous section](/intro_specfem.md) -- [Next section](/getting_started.md)
+[Previous section](/intro_specfem.md) -- [Next section](/prepare_data.md)
