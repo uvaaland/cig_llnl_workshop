@@ -24,7 +24,7 @@ need to take are the following:
 Before we run the solver, we need to generate the mesh for the continental
 model.
 
-We do this by running the executable `xmeshfem3E` on the cluster. In order to
+We do this by running the executable `xmeshfem3D` on the cluster. In order to
 do this, we need to send our job to the cluster job scheduler. The script for
 doing this is the `submit_mesher` script, which is written for a SLURM job
 scheduler:
