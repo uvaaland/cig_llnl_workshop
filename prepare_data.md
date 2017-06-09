@@ -149,6 +149,10 @@ set up the simulation to our liking, we need to:
   We will leave the `Par_file` as it is for now, and use this setup to generate
   the model mesh and run a simulation of the Napa earthquake.
 
+**Note:** As mentioned in the previous section, if you make any changes to the
+`Par_file`, you need to recompile the package by running `make clean` and
+`make`.
+
 ---
 In the next section, we will look at how to generate a mesh for the continental
 model.
