@@ -33,7 +33,7 @@ set up the simulation to our liking, we need to:
 * **Step 1:** Provide the source characteristics for the event we want to simulate.
 
   The format for the source should follow that of the [Global CMT Catalog](http://www.globalcmt.org/).
-  For the Napa earthquake, the source CMTSOLUTION is given as follows:
+  For the Napa earthquake, the source `CMTSOLUTION` is given as follows:
 
       CMT 2014 08 24 10 20 49.36 38.3100 -122.3800 12.0000 6.1 6.1 C201408241020A
       event name:     C201408241020A
@@ -50,21 +50,45 @@ set up the simulation to our liking, we need to:
       Mtp:       1.120000E+25
 
 
-* **Step 2:** Check that the compilers have been loaded
+* **Step 2:** Provide the names and locations for the recording stations that
+  we want to use.
 
-```shell
-      mpicc --version
-      # icc (ICC) 16.0.4 20160811
-      # Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
-      
-      mpif90 --version
-      # ifort (IFORT) 16.0.4 20160811
-      # Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
-```
+  The recording stations are given in the `STATIONS` file, using the following
+  format:
 
-* **Step 3:** Configure SPECFEM3D_GLOBE by running the following command in the root folder (`./specfem3d_globe`):
+      Station    Network    Latitude(degrees)    Longitude(degrees)    Elevation(m)    Burial(m)
 
-```shell
-      ./configure CC=icc CXX=icpc FC=ifort MPIFC=mpif90
-```
+  For the Napa earthquake, the `STATIONS` file has XXX number of stations:
+
+      034A       TA       27.0647    -98.6833     155.0     0.0
+      035A       TA       26.9379    -98.1023      29.0     0.0
+      035Z       TA       26.4630    -98.0683      19.0     0.0
+      058A       TA       27.0569    -81.8049      15.0     0.0
+      059A       TA       26.9671    -81.1440      11.0     0.0
+      059Z       TA       26.3373    -81.4432       8.0     0.0
+      060A       TA       27.0361    -80.3618       9.0     0.0
+      060Z       TA       26.4062    -80.5560       9.0     0.0
+      061Z       TA       25.8657    -80.9070       9.0     0.0
+      062Z       TA       24.7266    -81.0523       5.0     0.0
+      109C       TA       32.8889   -117.1051     150.0     0.0
+      112A       TA       32.5356   -114.5804      87.0     0.0
+      113A       AR       32.7683   -113.7667     118.0     0.0
+      113A       TA       32.7683   -113.7667     118.0     0.0
+      ...
+      Z53A       TA       33.2801    -83.5713     144.0     0.0
+      Z54A       TA       33.2362    -82.8417     134.0     0.0
+      Z55A       TA       33.2211    -82.1359     100.0     0.0
+      Z56A       TA       33.3253    -81.3687      81.0     0.0
+      Z57A       TA       33.2970    -80.7039      81.0     0.0
+      Z58A       TA       33.3349    -79.8129      18.0     0.0
+      Z59A       TA       33.2414    -79.2780       8.0     0.0
+      ZAIG       MX       22.7692   -102.5670    2408.0     0.0
+      ZAR        CM        7.4923    -74.8580     205.0     0.0
+      ZKR        GE       35.1147     26.2170     270.0     0.0
+      ZOMB       AF      -15.3833     35.3500     885.0     0.0
+      ZRNK       KZ       52.9510     69.0043     380.0     0.0
+      ZRN        KZ       52.9510     69.0043     420.0     0.0
+
+* **Step 3:** Set the relevant simulation parameters in the `Par_file`.
+
 
