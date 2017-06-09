@@ -61,7 +61,7 @@ highlighted in the following tree-structure:
   * Par_file: Contains the simulation parameters.
 
 * **OUTPUT_FILES:** Folder where the output seismograms are stored.
-* **DATABASES_MPI:** Folder where the...
+* **DATABASES_MPI:** Folder where the mesh partitions are stored.
 * **src:** Folder where the SPECFEM3D_GLOBE source code is located.
 
 ### Configuration
@@ -98,6 +98,12 @@ Once we have configured SPECFEM3D_GLOBE, we can compile the source code by
 typing `make all` in the root directory. This will produce all the binary files
 that we will use in the remaining parts of this tutorial. The resulting binary
 files can be found in the `./specfem3d_globe/bin` folder.
+
+Note: the solver executable `xspecfem3D` uses static allocations which will
+depend upon the parameters set in the `Par_file`. According to those
+parameters, a ousrce header file `OUTPUT_FILES/values_from_mesher.h` will be
+created during the compilation process by the executable `xcreate_header_file`.
+The solver only runs for those parameter setups.
 
 ---
 In this section we have looked at how to set up, configure, and compile
