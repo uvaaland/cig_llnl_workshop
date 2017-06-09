@@ -10,6 +10,16 @@
 6. [Resources](resources.md)
 
 
+## Part II: Continental-scale Simulations
+
+This second part of the tutorial will take you through the steps that are
+needed to run a continental-scale simulation with SPECFEM3D_GLOBE. The steps we
+need to take are the following:
+* Prepare the Data and Parameters
+* Generate a Mesh for the Continental Model
+* Run the Solver
+
+### Generate a Mesh for the Continental Model
 
 
 
