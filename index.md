@@ -3,7 +3,7 @@
 1. [Overview](/index.md)
 2. [Introduction](/intro_specfem.md)
 3. [Part I: Setting up SPECFEM3D_GLOBE](/getting_started.md)
-4. [Part II: Regional Simulation](/prep_data.md)
+4. [Part II: Continental-scale Simulations](/prep_data.md)
 5. [Part III: Additional Topics](/partIII.md)
 6. [Resources](resources.md)
 
