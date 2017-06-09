@@ -21,8 +21,36 @@ need to take are the following:
 
 ### Generate a Mesh for the Continental Model
 
+Before we run the solver, we need to generate the mesh for the continental
+model.
 
+We do this by running the executable `xmeshfem3E` on the cluster. In order to
+do this, we need to send our job to the cluster job scheduler. The script for
+doing this is the `submit_mesher` script, which is written for a SLURM job
+scheduler:
 
+```shell
+      #!/bin/bash
+      
+      #SBATCH -N 4
+      #SBATCH --ntasks-per-node=16
+      #SBATCH -t 00:30:00
+      
+      # load appropriate compilers/libraries
+      module load intel/16.0/64/16.0.4.258
+      module load intel-mpi/intel/5.1.3/64
+      
+      # change directory to build
+      cd /tigress/uvaaland/SPECFEM3D_GLOBE/specfem3d_globe
+      
+      srun -n 64 ./bin/xmeshfem3D
+```
+
+In order to submit your job, type the following in the command line
+
+```shell
+      sbatch submit_mesher
+```
 
 
 
