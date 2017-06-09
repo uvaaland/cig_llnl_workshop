@@ -99,7 +99,7 @@ typing `make all` in the root directory. This will produce all the binary files
 that we will use in the remaining parts of this tutorial. The resulting binary
 files can be found in the `./specfem3d_globe/bin` folder.
 
-**Note:** the solver executable `xspecfem3D` uses static allocations which will
+**NOTE:** the solver executable `xspecfem3D` uses static allocations which will
 depend upon the parameters set in the `Par_file`. According to those
 parameters, a source header file `OUTPUT_FILES/values_from_mesher.h` will be
 created during the compilation process by the executable `xcreate_header_file`.
