@@ -145,3 +145,12 @@ set up the simulation to our liking, we need to:
       LOCAL_PATH                      = ./DATABASES_MPI
 
       ...
+
+  We will leave the `Par_file` as it is for now, and use this setup to generate
+  the model mesh and run a simulation of the Napa earthquake.
+
+---
+In the next section, we will look at how to generate a mesh for the continental
+model.
+
+[Previous section](/setup_specfem3d.md) -- [Next section](/generate_mesh.md)
