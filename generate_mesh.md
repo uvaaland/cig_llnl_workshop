@@ -1,4 +1,4 @@
-### Table of Contents:w
+### Table of Contents
 1. [Overview](/index.md)
 2. [Introduction](/intro_specfem.md)
 3. [Part I: Setting up SPECFEM3D_GLOBE](/setup_specfem3d.md)
@@ -85,4 +85,4 @@ Which for our setup gives us a shortest period of about `(256 / 128) * (90 / 90)
 In the next section, we will look at how to run the solver for our continental
 simulation.
 
-[Previous section](/prepare_data.md) -- [Next section](/generate_mesh.md)
+[Previous section](/prepare_data.md) -- [Next section](/run_solver.md)
