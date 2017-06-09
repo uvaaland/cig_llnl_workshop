@@ -1,4 +1,4 @@
-### Table of Contents
+### Table of Contents:w
 1. [Overview](/index.md)
 2. [Introduction](/intro_specfem.md)
 3. [Part I: Setting up SPECFEM3D_GLOBE](/setup_specfem3d.md)
@@ -46,23 +46,31 @@ scheduler:
       srun -n 64 ./bin/xmeshfem3D
 ```
 
-In order to submit your job, type the following in the command line
+The number of processors is determined by the parameters that we set in the
+`Par_file`
+
+      #processors = NPROC_XI * NPROC_ETA * NCHUNKS
+
+which for the `Par_file` on the previous page becomes `8 * 8 * 1 = 64`
+processors. In order to submit our job, we type the following in the command line
 
 ```shell
       sbatch submit_mesher
 ```
 
+we can then monitor the job by typing `squeue`.
 
+Once the job has finished, the output can be found in the `OUTPUT_FILES/`
+folder. We can check to see if the mesher ran successfully by inspecting the
+`OUTPUT_FILES/output_mesher.txt` file. This file contains information about the
+mesh, including the number of spectral elements in the mesh, and the size of
+the time step that will be used when running the solver.
 
+The shortest period that is resolved in the seismograms can be determined by
 
+      shortest period ~ (256 / NEX_XI) * (ANGULAR_WIDTH_XI_IN_DEGREES / 90) * 17
 
-
-
-
-
-
-
-
+Which for our setup gives us a shortest period of about `(256 / 128)i * (90 / 90) * 17 = 34`. That is, the seismograms in this simulation will be accurate down to approximately 34 s periods.
 
 ---
 In the next section, we will look at how to run the solver for our continental
