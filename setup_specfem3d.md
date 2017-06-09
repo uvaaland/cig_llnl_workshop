@@ -5,8 +5,8 @@ layout: default
 ### Table of Contents
 1. [Overview](/index.md)
 2. [Introduction](/intro_specfem.md)
-3. [Part I: Setting up SPECFEM3D_GLOBE](/getting_started.md)
-4. [Part II: Continental-scale Simulations](/prep_data.md)
+3. [Part I: Setting up SPECFEM3D_GLOBE](/setup_specfem3d.md)
+4. [Part II: Continental-scale Simulations](/prepare_data.md)
 5. [Part III: Additional Topics](/partIII.md)
 6. [Resources](resources.md)
 
@@ -101,7 +101,7 @@ files can be found in the `./specfem3d_globe/bin` folder.
 
 Note: the solver executable `xspecfem3D` uses static allocations which will
 depend upon the parameters set in the `Par_file`. According to those
-parameters, a ousrce header file `OUTPUT_FILES/values_from_mesher.h` will be
+parameters, a source header file `OUTPUT_FILES/values_from_mesher.h` will be
 created during the compilation process by the executable `xcreate_header_file`.
 The solver only runs for those parameter setups.
 
