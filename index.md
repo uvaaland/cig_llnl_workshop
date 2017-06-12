@@ -58,5 +58,6 @@ earthquake](https://en.wikipedia.org/wiki/2014_South_Napa_earthquake).
     * Get an idea of how to visualize the simulation output.
     * Understand the steps required to run adjoint simulations using SPECFEM3D_GLOBE.
 
+---
 
 [Next section](/intro_specfem.md)
