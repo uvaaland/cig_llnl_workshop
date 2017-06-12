@@ -39,7 +39,7 @@ earthquake](https://en.wikipedia.org/wiki/2014_South_Napa_earthquake).
   simulation parameters. We will also go through how to mesh the model, and how
   to run the solver.
 
-* **Learning goals:*
+* **Learning goals:**
     * Understand the steps required to run a continental-scale simulation with SPECFEM3D_GLOBE.
     * Get an overview of what data must be set in order to run a simulation with SPECFEM3D_GLOBE.
     * Learn how to change the resolution of a simulation.
