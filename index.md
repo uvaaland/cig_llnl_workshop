@@ -56,7 +56,7 @@ earthquake](https://en.wikipedia.org/wiki/2014_South_Napa_earthquake).
 
 * **Learning goals:**
     * Get an idea of how to visualize the simulation output.
-    * Get an idea of how to run adjoint simulations using SPECFEM3D_GLOBE.
+    * Understand the steps required to run adjoint simulations using SPECFEM3D_GLOBE.
 
 
 [Next section](/intro_specfem.md)
