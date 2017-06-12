@@ -67,5 +67,11 @@ results can be found in the `OUTPUT_FILES/` folder. Check the
 successfully.
 
 ---
+In this section, we have looked at how to run the solver for our
+continental-scale simulation.
+
+In the next section we move on to **Part III** of the tutorial, and look at how
+to visualize the simulation output.
+
 
 [Previous section](/generate_mesh.md) -- [Next section](/run_solver.md)
