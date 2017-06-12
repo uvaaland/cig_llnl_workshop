@@ -44,7 +44,7 @@ manual:
 * [HTML version](http://specfem3d-globe.readthedocs.io/en/latest/)
 
 
-### Napa Earthquake <a name="napa"></a>
+### South Napa Earthquake <a name="napa"></a>
 
 The 2014 South Napa earthquake occurred in the North San Francisco Bay Area on
 August 24 at 03:20:44 Pacific Daylight Time. At 6.0 on the moment magnitude
@@ -60,7 +60,7 @@ postseismic fault creep.
 
 <figure>
   <video src="Fig/orange.mp4" controls preload></video>
-  <figcaption>Visualization of the Napa earthquake produced by the <a
+  <figcaption>Visualization of the South Napa earthquake produced by the <a
   href="http://global.shakemovie.princeton.edu/home.jsp">Global
   ShakeMovie project</a>.</figcaption>
 </figure>
