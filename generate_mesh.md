@@ -82,7 +82,10 @@ The shortest period that is resolved in the seismograms can be determined by
 Which for our setup gives us a shortest period of about `(256 / 128) * (90 / 90) * 17 = 34`. That is, the seismograms in this simulation will be accurate down to approximately 34 s periods.
 
 ---
-In the next section, we will look at how to run the solver for our continental
-simulation.
+In this section, we have looked at how to generate a mesh for the
+continental-scale model.
+
+In the next section, we will look at how to run the solver for our
+continental-scale simulation.
 
 [Previous section](/prepare_data.md) -- [Next section](/run_solver.md)
