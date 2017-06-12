@@ -100,7 +100,7 @@ files can be found in the `./specfem3d_globe/bin` folder.
 **NOTE:** The solver executable `xspecfem3D` uses static allocations which will
 depend upon the parameters set in the `Par_file`. This means that if you change any
 parameter in the `Par_file` after compiling SPECFEM3D_GLOBE, you should
-recompile the code. Recompile the package by running `make clean` and
+recompile the code. Recompile the code by running `make clean` and
 `make` in the root folder.
 
 ---
