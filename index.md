@@ -32,8 +32,10 @@ earthquake](https://en.wikipedia.org/wiki/2014_South_Napa_earthquake).
     * Understand the steps required to set up SPECFEM3D_GLOBE.
     * Get an idea of how to set up SPECFEM3D_GLOBE in your own environment.
 
+
 ### Part II: Continental-scale Simulations:
-* **Description:** In the second part of the tutorial, look at how to prepare
+
+* **Description:** In the second part of the tutorial, we will look at how to prepare
   the input data for the continental-scale simulation. This includes providing
   the source characteristics, providing the station locations, and setting the
   simulation parameters. We will also go through how to mesh the model, and how
@@ -45,7 +47,16 @@ earthquake](https://en.wikipedia.org/wiki/2014_South_Napa_earthquake).
     * Learn how to change the resolution of a simulation.
     * Get an idea of how to submit the mesh and solver job on the cluster.
 
+
 ### Part III: Additional Topics:
+
+* **Description:** In part three, we will look at how to visualize the
+  simulation output using Paraview. We will also expand our toolbox by looking
+  at how we can use SPECFEM3D_GLOBE to run adjoint simulations.
+
+* **Learning goals:**
+    * Get an idea of how to visualize the simulation output.
+    * Get an idea of how to run adjoint simulations using SPECFEM3D_GLOBE.
 
 
 [Next section](/intro_specfem.md)
