@@ -33,7 +33,7 @@ set up the simulation, we need to:
 * **Step 1:** Provide the source characteristics for the event we want to simulate.
 
   The format for the source should follow that of the [Global CMT Catalog](http://www.globalcmt.org/).
-  For the Napa earthquake, the source `CMTSOLUTION` is given as follows:
+  For the South Napa earthquake, the source `CMTSOLUTION` is given as follows:
 
       CMT 2014 08 24 10 20 49.36 38.3100 -122.3800 12.0000 6.1 6.1 C201408241020A
       event name:     C201408241020A
@@ -58,7 +58,7 @@ set up the simulation, we need to:
 
       Station    Network    Latitude(degrees)    Longitude(degrees)    Elevation(m)    Burial(m)
 
-  For the Napa earthquake, the `STATIONS` file has X number of stations:
+  For the South Napa earthquake, the `STATIONS` file has X number of stations:
 
       034A       TA       27.0647    -98.6833     155.0     0.0
       035A       TA       26.9379    -98.1023      29.0     0.0
