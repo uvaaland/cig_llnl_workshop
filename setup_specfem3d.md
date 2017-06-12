@@ -28,8 +28,7 @@ For this workshop we will get the source code by cloning this [GitHub repository
 ```
 
 In general, the current, stable release of SPECFEM3D_GLOBE can be downloaded at
-the CIG website, while the development code can be obtained by cloning the
-GitHub repository:
+the CIG website, while the development code is available on GitHub:
 * [Stable release](https://geodynamics.org/cig/software/specfem3d_globe/)
 * [Development code](https://github.com/geodynamics/specfem3d_globe)
 
@@ -53,10 +52,9 @@ highlighted in the following tree-structure:
 ```
 
 #### Explanation
-* **DATA:**  Folder that holds all the parameter files that are to be used in the
-  simulation.
+* **DATA:**  Folder that holds all the parameter files that are used for running the simulation.
 
-  * STATIONS: Contains the names and locations for all the stations.
+  * STATIONS: Contains the names and locations of all the stations.
   * CMTSOLUTION: Contains the source characteristics.
   * Par_file: Contains the simulation parameters.
 
@@ -99,15 +97,17 @@ typing `make all` in the root directory. This will produce all the binary files
 that we will use in the remaining parts of this tutorial. The resulting binary
 files can be found in the `./specfem3d_globe/bin` folder.
 
-**NOTE:** the solver executable `xspecfem3D` uses static allocations which will
-depend upon the parameters set in the `Par_file`. According to those
-parameters, a source header file `OUTPUT_FILES/values_from_mesher.h` will be
-created during the compilation process by the executable `xcreate_header_file`.
-The solver only runs for those parameter setups.
+**NOTE:** The solver executable `xspecfem3D` uses static allocations which will
+depend upon the parameters set in the `Par_file`. This means that if you change any
+parameter in the `Par_file` after compiling SPECFEM3D_GLOBE, you should
+recompile the code. Recompile the package by running `make clean` and
+`make` in the root folder.
 
 ---
 In this section we have looked at how to set up, configure, and compile
-SPECFEM3D_GLOBE. In the next section we move on to **Part II** of the tutorial, and
-will look at how to prepare the input data for the regional simulation.
+SPECFEM3D_GLOBE.
+
+In the next section we move on to **Part II** of the tutorial, and
+look at how to prepare the input data for the continental-scale simulation.
 
 [Previous section](/intro_specfem.md) -- [Next section](/prepare_data.md)
