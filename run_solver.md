@@ -22,7 +22,7 @@ need to take are the following:
 ### Run the Solver
 
 After editing the parameter files and generating the mesh, we are ready to run
-the solver itself. Before we do this, we will run through the following
+the solver itself. Before we do this, we will go through the following
 checklist to make sure that we have gone through all the preceeding steps
 correctly:
 
@@ -30,8 +30,9 @@ correctly:
 * Recompiled the source code if any parameter in the `Par_file` was changed.
 * Generated the model mesh and checked the output for success.
 
-If all of these steps have been covered, we can go on to run the solver. The
-solver is run with the executable `xspecfem3D` on the cluster. Similar to the
+If all of these steps have been covered, we can go on to run the solver.
+
+The solver is run with the executable `xspecfem3D` on the cluster. Similar to the
 meshing routine, we need to send our job to the cluster's job scheduler. The
 script we use for this task is the `submit_solver` script:
 
