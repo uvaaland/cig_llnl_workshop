@@ -23,7 +23,7 @@ need to take are the following:
 
 As we talked about in the previous part of the tutorial, the parameter files
 for the SPECFEM3D_GLOBE package are found in the `DATA/` folder. In order to
-set up the simulation to our liking, we need to:
+set up the simulation, we need to:
 
 1. Provide the source characteristics for the event we want to simulate.
 2. Provide names and locations for the recording stations that we want to use.
@@ -58,7 +58,7 @@ set up the simulation to our liking, we need to:
 
       Station    Network    Latitude(degrees)    Longitude(degrees)    Elevation(m)    Burial(m)
 
-  For the Napa earthquake, the `STATIONS` file has XXX number of stations:
+  For the Napa earthquake, the `STATIONS` file has X number of stations:
 
       034A       TA       27.0647    -98.6833     155.0     0.0
       035A       TA       26.9379    -98.1023      29.0     0.0
@@ -92,7 +92,7 @@ set up the simulation to our liking, we need to:
 * **Step 3:** Set the relevant simulation parameters in the `Par_file`.
 
   The `Par_file` is the file where most of the simulation parameters are set.
-  In this tutorial, we will only work with a subset of the parameters that is
+  In this tutorial, we will only work with the subset of parameters that is
   shown below. For a full description of all the parameters in the `Par_file`,
   please consult the [SPECFEM3D_GLOBE manual](http://specfem3d-globe.readthedocs.io/en/latest/).
 
@@ -147,14 +147,17 @@ set up the simulation to our liking, we need to:
       ...
 
   We will leave the `Par_file` as it is for now, and use this setup to generate
-  the model mesh and run a simulation of the Napa earthquake.
+  the model mesh and run a simulation of the South Napa earthquake.
 
 **NOTE:** As mentioned in the previous section, if you make any changes to the
-`Par_file`, you need to recompile the package by running `make clean` and
-`make`.
+`Par_file` after compiling SPECFEM3D_GLOBE, you need to recompile the package by
+running `make clean` and `make` in the root folder.
 
 ---
-In the next section, we will look at how to generate a mesh for the continental
-model.
+In this section, we have looked at how to provide the input data that is
+necessary to run a continental-scale simulation with SPECFEM3D_GLOBE.
+
+In the next section, we will look at how to generate a mesh for the
+continental-scale model.
 
 [Previous section](/setup_specfem3d.md) -- [Next section](/generate_mesh.md)
