@@ -61,7 +61,7 @@ processors. In order to submit our job, we type the following in the command lin
 we can then monitor the job by typing `squeue`.
 
 <p align="center">
-  <img src="Fig/regional_mesh.jpeg" alt="Regional mesh">
+  <img src="Fig/chunk_mesh.png" alt="Regional mesh">
 </p>
 
 
