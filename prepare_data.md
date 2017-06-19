@@ -72,7 +72,7 @@ set up the simulation, we need to:
       ZRNK       KZ       52.9510     69.0043     380.0     0.0
       ZRN        KZ       52.9510     69.0043     420.0     0.0
 
-  More station information can be found at the [FDSN webpage](http://www.fdsn.org/).
+  More station information can be found on the [FDSN webpage](http://www.fdsn.org/).
 
 * **Step 3:** Set the relevant simulation parameters in the `Par_file`.
 
