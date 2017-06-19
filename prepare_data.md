@@ -143,6 +143,11 @@ set up the simulation, we need to:
 
       # path to store the local database files on each node
       LOCAL_PATH                      = ./DATABASES_MPI
+     
+      ...
+
+      # output format for the seismograms (one can use either or all of the three formats)
+      OUTPUT_SEISMOS_SAC_BINARY       = .true.
 
       ...
 
