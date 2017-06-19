@@ -58,6 +58,9 @@ system that alerted seismologists several seconds before the damaging shear
 waves arrived, temporary changes in springs and wells, and the potential for
 postseismic fault creep.
 
+A summary of the tectonic setting is provided by the USGS at the following 
+[link](https://earthquake.usgs.gov/archive/product/poster/20140824/us/1480721358422/poster.pdf).
+
 <figure>
   <video src="Fig/orange.mp4" controls preload></video>
   <figcaption>Visualization of the South Napa earthquake produced by the <a
