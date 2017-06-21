@@ -26,7 +26,7 @@ for the SPECFEM3D_GLOBE package are found in the `DATA/` folder. In order to
 set up the simulation, we need to:
 
 1. Provide the source characteristics for the event we want to simulate
-2. Provide names and locations for the recording stations that we want to use
+2. Provide names and locations for the stations we want to use
 3. Set the relevant simulation parameters in the `Par_file`
 
 
@@ -50,8 +50,7 @@ set up the simulation, we need to:
       Mtp:       1.120000E+25
 
 
-* **Step 2: Provide the names and locations for the recording stations that
-  we want to use**
+* **Step 2: Provide the names and locations for the stations we want to use**
 
   The recording stations are given in the `STATIONS` file, using the following
   format:
