@@ -74,4 +74,4 @@ In the next section we move on to **Part III** of the tutorial, and look at how
 to visualize the simulation output.
 
 
-[Previous section](/generate_mesh.md) -- [Next section](/run_solver.md)
+[Previous section](/generate_mesh.md) -- [Next section](/vis_seismo.md)

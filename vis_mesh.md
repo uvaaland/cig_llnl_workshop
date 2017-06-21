@@ -68,3 +68,12 @@ steps in order to visualize the model mesh:
 
 * **Step 3: Open up Paraview**
 
+
+---
+In this section, we have looked at how to provide the input data that is
+necessary to run a continental-scale simulation with SPECFEM3D_GLOBE.
+
+In the next section, we will look at how to generate a mesh for the
+continental-scale model.
+
+[Previous section](/vis_seismo.md) -- [Next section](/vis_movie.md)

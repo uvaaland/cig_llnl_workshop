@@ -19,3 +19,11 @@ output simulation data. We will look at the following categories:
 * Visualize Model Mesh
 * Visualize Movie
 
+---
+In this section, we have looked at how to provide the input data that is
+necessary to run a continental-scale simulation with SPECFEM3D_GLOBE.
+
+In the next section, we will look at how to generate a mesh for the
+continental-scale model.
+
+[Previous section](/run_solver.md) -- [Next section](/vis_mesh.md)

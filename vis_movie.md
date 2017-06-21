@@ -18,3 +18,13 @@ output simulation data. We will look at the following categories:
 * Visualize Seismograms
 * Visualize Model Mesh
 * <mark>Visualize Movie</mark>
+
+
+---
+In this section, we have looked at how to provide the input data that is
+necessary to run a continental-scale simulation with SPECFEM3D_GLOBE.
+
+In the next section, we will look at how to generate a mesh for the
+continental-scale model.
+
+[Previous section](/vis_mesh.md) -- [Next section](/vis_movie.md)
