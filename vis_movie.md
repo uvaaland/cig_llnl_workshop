@@ -16,5 +16,5 @@ In this third part of the tutorial, we will look at methods for visualizing the
 output simulation data. We will look at the following categories:
 
 * Visualize Seismograms
-* Visualize Model Mesh>
+* Visualize Model Mesh
 * <mark>Visualize Movie</mark>
