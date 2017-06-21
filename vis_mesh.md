@@ -66,6 +66,5 @@ steps in order to visualize the model mesh:
   directly, inspect the `combine_data.py` script and consult the
   SPECFEM3D_GLOBE manual.
 
-
-
+* **Step 3: Open up Paraview**
 
