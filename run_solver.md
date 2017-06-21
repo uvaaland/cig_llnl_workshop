@@ -6,7 +6,7 @@
     1. [Prepare the Data and Paramaters](/prepare_data.md)
     2. [Generate a Mesh for the Continental Model](/generate_mesh.md)
     3. [Run the Solver](/run_solver.md)
-5. [Part III: Additional Topics](/partIII.md)
+5. [Part III: Visualization](/vis_seismo.md)
 6. [Resources](resources.md)
 
 

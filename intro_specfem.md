@@ -7,7 +7,7 @@ layout: default
 2. [Introduction](/intro_specfem.md)
 3. [Part I: Setting up SPECFEM3D_GLOBE](/setup_specfem3d.md)
 4. [Part II: Continental-scale Simulations](/prepare_data.md)
-5. [Part III: Additional Topics](/partIII.md)
+5. [Part III: Visualization](/vis_seismo.md)
 6. [Resources](resources.md)
 
 
