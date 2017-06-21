@@ -25,12 +25,12 @@ As we talked about in the previous part of the tutorial, the parameter files
 for the SPECFEM3D_GLOBE package are found in the `DATA/` folder. In order to
 set up the simulation, we need to:
 
-1. Provide the source characteristics for the event we want to simulate.
-2. Provide names and locations for the recording stations that we want to use.
-3. Set the relevant simulation parameters in the `Par_file`.
+1. Provide the source characteristics for the event we want to simulate
+2. Provide names and locations for the recording stations that we want to use
+3. Set the relevant simulation parameters in the `Par_file`
 
 
-* **Step 1: Provide the source characteristics for the event we want to simulate.**
+* **Step 1: Provide the source characteristics for the event we want to simulate**
 
   The format for the source should follow that of the [Global CMT Catalog](http://www.globalcmt.org/).
   For the South Napa earthquake, the source `CMTSOLUTION` is given as follows:
@@ -50,8 +50,8 @@ set up the simulation, we need to:
       Mtp:       1.120000E+25
 
 
-* **Step 2:** Provide the names and locations for the recording stations that
-  we want to use.
+* **Step 2: Provide the names and locations for the recording stations that
+  we want to use**
 
   The recording stations are given in the `STATIONS` file, using the following
   format:
@@ -74,7 +74,7 @@ set up the simulation, we need to:
 
   More station information can be found on the [FDSN webpage](http://www.fdsn.org/).
 
-* **Step 3:** Set the relevant simulation parameters in the `Par_file`.
+* **Step 3: Set the relevant simulation parameters in the `Par_file`**
 
   The `Par_file` is the file where most of the simulation parameters are set.
   In this tutorial, we will only work with the subset of parameters that is
