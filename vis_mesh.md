@@ -56,7 +56,16 @@ steps in order to visualize the model mesh:
   data is partitioned among the processees, and we will want to combine these
   data into single files.
 
-  We can achieve this by running the `xcombine_vol_data_vtk` executable that is
-  located in the `bin/` folder.
+  We can achieve this by running the `combine_data.py` script that is located
+  in the root folder. This script will generate `VTK` files for the `vp` and
+  `vs` model velocities which can be found in the `OUPUT_FILES/` folder.
+
+  **NOTE:** Under the hood, the `combine_data.py` script is running the
+  `xcombine_vol_data_vtk` executable that is located in the
+  `./specfem3d_globe/bin` folder. For details on how to run this executable
+  directly, inspect the `combine_data.py` script and consult the
+  SPECFEM3D_GLOBE manual.
+
+
 
 
