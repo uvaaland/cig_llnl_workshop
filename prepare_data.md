@@ -30,7 +30,7 @@ set up the simulation, we need to:
 3. Set the relevant simulation parameters in the `Par_file`.
 
 
-* **Step 1:** Provide the source characteristics for the event we want to simulate.
+* **Step 1: Provide the source characteristics for the event we want to simulate.**
 
   The format for the source should follow that of the [Global CMT Catalog](http://www.globalcmt.org/).
   For the South Napa earthquake, the source `CMTSOLUTION` is given as follows:
