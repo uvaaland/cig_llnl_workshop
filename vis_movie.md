@@ -73,14 +73,14 @@ visualize the surface movie:
   This script will then give you several options for how you want to format the
   movie data:
 
-    * 1st prompt: Choose option `2 = create files in AVS UCD format with 
-      individual files`.
+  * 1st prompt: Choose option `2 = create files in AVS UCD format with 
+    individual files`.
 
-    * 2nd prompt: Choose the timestep you want the movie to `start`.
+  * 2nd prompt: Choose the timestep you want the movie to `start`.
 
-    * 3rd prompt: Choose the timested you want the movie to `end`.
+  * 3rd prompt: Choose the timested you want the movie to `end`.
 
-    * 4th prompt: Choose the `component` you want to visualize.
+  * 4th prompt: Choose the `component` you want to visualize.
 
   For the first prompt, choose option `2 = create files in AVS UCD
   format with individual files`.
