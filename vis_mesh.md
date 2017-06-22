@@ -6,7 +6,7 @@
 5. [Part III: Visualization](/vis_seismo.md)
     1. [Visualize Seismograms](/vis_seismo.md)
     2. [Visualize Model Mesh](/vis_mesh.md)
-    3. [Visualize Movie](/vis_movie.md)
+    3. [Visualize Surface Movie](/vis_movie.md)
 6. [Resources](resources.md)
 
 
@@ -17,7 +17,7 @@ output simulation data. We will look at the following categories:
 
 * Visualize Seismograms
 * <mark>Visualize Model Mesh</mark>
-* Visualize Movie
+* Visualize Surface Movie
 
 ### Visualize Model Mesh
 

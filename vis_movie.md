@@ -24,7 +24,7 @@ output simulation data. We will look at the following categories:
 In order to create a surface movie for the simulation, we need to go through a
 couple of steps that are similar to what we did for visualizing the model mesh.
 
-First, we need to modify the `Par_file` surch that the movie data are being
+First, we need to modify the `Par_file` such that the movie data are being
 saved. Therefore, open up the `Par_file` and set the following parameter to
 `true`:
 
@@ -46,7 +46,31 @@ visualize the surface movie:
 
 * **Step 1: Rerun the solver routine**
 
+  This step is the same as what we did in Part II. We run the `xspecfem3D`
+  executable on the cluster by submitting the `submit_solver` script:
+
+```shell
+      sbatch submit_solver
+```
+  And use `squeue` to monitor the job.
+
+
 * **Step 2: Generate the movie data**
+
+  The surface movie data files are stored in the
+  `./specfem3d_globe/OUTPUT_FILES/` folder as `moviedata*`. In order to
+  visualize the surface movie in `Paraview`, we need to convert these datafiles
+  to a format that `Paraview` can work with.
+
+  In order to do this, we run the `xcreate_movie_AVS_DX` that is located in the
+  `./specfem3d_globe/bin/` folder. From the root folder, run the following
+  command:
+
+```shell
+      ./bin/xcreate_movie_AVS_DX
+```
+
+
 
 * **Step 3: Visualize using Paraview**
 
