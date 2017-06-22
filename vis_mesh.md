@@ -47,18 +47,18 @@ steps in order to visualize the model mesh:
 ```shell
       sbatch submit_mesher
 ```
-  We can then use `squeue` to monitor the job.
+  And use `squeue` to monitor the job.
 
 * **Step 2: Combine the output mesh data**
 
   Once we have rerun the mesh routine with the `SAVE_MESH_FILES` parameter set
-  to true, the mesh files will be output to the `DATABASES_MPI/` folder. The
+  to `true`, the mesh files will be output to the `DATABASES_MPI/` folder. The
   data is partitioned among the processees, and we will want to combine these
   data into single files.
 
   We can achieve this by running the `combine_data.py` script that is located
   in the root folder. This script will generate `VTK` files for the `vp` and
-  `vs` model velocities which can be found in the `OUPUT_FILES/` folder.
+  `vs` model velocities which will be stored in the `OUPUT_FILES/` folder.
 
   **NOTE:** Under the hood, the `combine_data.py` script is running the
   `xcombine_vol_data_vtk` executable that is located in the
@@ -72,7 +72,7 @@ steps in order to visualize the model mesh:
   to the `./specfem3d_globe/OUTPUT_FILES/` folder. In this folder you should
   see two file-bundles called `reg_.._vp.vtk` and `reg_.._vs.vtk`, which are
   the combined data files that we produced in the previous step. In order to
-  visualize the vp velocity model, click the pluss sign next to the 
+  visualize the `vp` velocity model, click the pluss sign next to the 
   `reg_.._vp.vtk` bundle, select all the files in the bundle by holding down
   shift, and then click `OK`.
 
@@ -85,7 +85,7 @@ steps in order to visualize the model mesh:
   menu. With `GroupDatasets1` selected in the `Pipeline-Browser` go to the
   drop-down menu which says `Surface` and select `Surface With Edges`.
 
-  The procedure is similar for visualizing the vs velocity model.
+  The procedure is similar for visualizing the `vs` velocity model.
 
 ---
 In this section, we have looked at how to visualize the mesh with different
