@@ -7,7 +7,8 @@
     1. [Visualize Seismograms](/vis_seismo.md)
     2. [Visualize Model Mesh](/vis_mesh.md)
     3. [Visualize Surface Movie](/vis_movie.md)
-6. [Resources](resources.md)
+6. [Part IV: Adjoint Simulations (Bonus)](/index.md)
+7. [Resources](resources.md)
 
 
 ## Part III: Visualization

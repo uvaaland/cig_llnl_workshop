@@ -7,7 +7,8 @@
     2. [Generate a Mesh for the Continental Model](/generate_mesh.md)
     3. [Run the Solver](/run_solver.md)
 5. [Part III: Visualization](/vis_seismo.md)
-6. [Resources](resources.md)
+6. [Part IV: Adjoint Simulations (Bonus)](/index.md)
+7. [Resources](resources.md)
 
 
 ## Part II: Continental-scale Simulations

@@ -7,7 +7,8 @@
     2. [Generate a Mesh for the Continental Model](/generate_mesh.md)
     3. [Run the Solver](/run_solver.md)
 5. [Part III: Visualization](/vis_seismo.md)
-6. [Resources](resources.md)
+6. [Part IV: Adjoint Simulations (Bonus)](/index.md)
+7. [Resources](resources.md)
 
 
 ## Part II: Continental-scale Simulations
@@ -72,6 +73,5 @@ continental-scale simulation.
 
 In the next section we move on to **Part III** of the tutorial, and look at how
 to visualize the simulation output.
-
 
 [Previous section](/generate_mesh.md) -- [Next section](/vis_seismo.md)
