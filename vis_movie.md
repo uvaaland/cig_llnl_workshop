@@ -70,6 +70,23 @@ visualize the surface movie:
       ./bin/xcreate_movie_AVS_DX
 ```
 
+  This script will then give you several options for how you want to format the
+  movie data. 
+
+```shell
+      reading parameter file
+        
+        1 = create files in OpenDX format
+        2 = create files in AVS UCD format with individual files
+        3 = create files in AVS UCD format with one time-dependent file
+        4 = create files in GMT xyz Ascii long/lat/U format
+            any other value = exit
+              
+        enter value:
+```
+  For this first prompt, choose option 2: `create files in AVS UCD
+  format with individual files`
+
 
 
 * **Step 3: Visualize using Paraview**
