@@ -71,14 +71,23 @@ visualize the surface movie:
 ```
 
   This script will then give you several options for how you want to format the
-  movie data. 
+  movie data:
+
+    * 1st prompt: Choose option `2 = create files in AVS UCD format with 
+      individual files`.
+
+    * 2nd prompt: Choose the timestep you want the movie to `start`.
+
+    * 3rd prompt: Choose the timested you want the movie to `end`.
+
+    * 4th prompt: Choose the `component` you want to visualize.
 
   For the first prompt, choose option `2 = create files in AVS UCD
   format with individual files`.
 
   For the following two prompts, choose the timesteps you want the movie to
-  start and end. Then, for the final prompt, choose which component you want to
-  visualize (Z/N/E).
+  `start` and `end`. Then, for the final prompt, choose which component you want to
+  visualize `(Z/N/E)`.
 
   The movie data will now be converted to `AVS` format and stored in the
   `./specfem3d_globe/OUTPUT_FILES/` folder.
