@@ -73,20 +73,15 @@ visualize the surface movie:
   This script will then give you several options for how you want to format the
   movie data. 
 
-      reading parameter file
-        
-        1 = create files in OpenDX format
-        2 = create files in AVS UCD format with individual files
-        3 = create files in AVS UCD format with one time-dependent file
-        4 = create files in GMT xyz Ascii long/lat/U format
-            any other value = exit
-              
-        enter value:
+  For the first prompt, choose option `2 = create files in AVS UCD
+  format with individual files`.
 
-  For this first prompt, choose option `2 = create files in AVS UCD
-  format with individual files`
+  For the following two prompts, choose the timesteps you want the movie to
+  start and end. Then, for the final prompt, choose which component you want to
+  visualize (Z/N/E).
 
-
+  The movie data will now be converted to `AVS` format and stored in the
+  `./specfem3d_globe/OUTPUT_FILES/` folder.
 
 * **Step 3: Visualize using Paraview**
 
