@@ -106,12 +106,9 @@ visualize the surface movie:
   You might want to adjust the color scale to your own liking.
 
 ---
-In this section, we have looked at how to provide the input data that is
-necessary to run a continental-scale simulation with SPECFEM3D_GLOBE.
+In this section, we have looked at how to create a surface movie for our
+simulation and how to visualize it using Paraview.
 
-In the next section, we will look at how to generate a mesh for the
-continental-scale model.
-
-
+In the next section, we will...
 
 [Previous section](/vis_mesh.md) -- [Next section](/vis_movie.md)
