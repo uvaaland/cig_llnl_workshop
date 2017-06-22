@@ -87,6 +87,24 @@ visualize the surface movie:
 
 * **Step 3: Visualize using Paraview**
 
+  Start `Paraview`, click the `Open` button in the top left corner, and
+  navigate to the `./specfem3d_globe/OUTPUT_FILES/` folder. In this folder you
+  should see a file-bundle called `AVS_movie_*.inp`, which is the formatted
+  movie data that we generated in the previous step.
+
+  In order to visualize the surface movie, select the `AVS_movie_*.inp` bundle
+  (not the individual files contained in the bundle) and click `OK`.
+  
+  An `Open Data With...` menu should now appear. Select the `AVS UCD
+  Binary/ASCII Files` option and click `OK`.
+
+  The movie data is now loaded, and you can click `Apply` in the `Properties`
+  menu on the left-hand side in order to display it. To run the movie, click
+  the leftmost green arrow in the top menu, called `First Frame`, and then
+  click the center green arrow, called `Play`.
+
+  You might want to adjust the color scale to your own liking.
+
 ---
 In this section, we have looked at how to provide the input data that is
 necessary to run a continental-scale simulation with SPECFEM3D_GLOBE.
