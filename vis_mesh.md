@@ -68,10 +68,24 @@ steps in order to visualize the model mesh:
 
 * **Step 3: Visualize using Paraview**
 
-  Start Paraview, click the "Open" button in the top left corner, and navigate
+  Start Paraview, click the `Open` button in the top left corner, and navigate
   to the `./specfem3d_globe/OUTPUT_FILES/` folder. In this folder you should
   see two file-bundles called `reg_.._vp.vtk` and `reg_.._vs.vtk`, which are
-  the combined data files that we produced in the previous step.
+  the combined data files that we produced in the previous step. In order to
+  visualize the vp velocity model, click the pluss sign next to the 
+  `reg_.._vp.vtk` bundle, select all the files in the bundle by holding down
+  shift, and then click `OK`.
+
+  Now that we have loaded the model, click `Apply` on the left-hand side in the
+  `Properties` menu, and the model will appear.
+
+  In order to see the model mesh, select the three model files in the
+  `Pipeline-Browser` by holding down shift. Then go to the top menu and select
+  `Filter -> Common -> Group Datasets`, and click `Apply` in the `Properties`
+  menu. With `GroupDatasets1` selected in the `Pipeline-Browser` go to the
+  drop-down menu which says `Surface` and select `Surface With Edges`.
+
+  The procedure is similar for visualizing the vs velocity model.
 
 ---
 In this section, we have looked at how to provide the input data that is
