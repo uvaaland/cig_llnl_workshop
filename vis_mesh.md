@@ -37,7 +37,7 @@ steps in order to visualize the model mesh:
 
 1. Rerun the mesh routine
 2. Combine the output mesh data
-3. Open up Paraview
+3. Visualize using Paraview
 
 * **Step 1: Rerun the mesh routine**
   
@@ -62,12 +62,16 @@ steps in order to visualize the model mesh:
 
   **NOTE:** Under the hood, the `combine_data.py` script is running the
   `xcombine_vol_data_vtk` executable that is located in the
-  `./specfem3d_globe/bin` folder. For details on how to run this executable
+  `./specfem3d_globe/bin/` folder. For details on how to run this executable
   directly, inspect the `combine_data.py` script and consult the
   SPECFEM3D_GLOBE manual.
 
-* **Step 3: Open up Paraview**
+* **Step 3: Visualize using Paraview**
 
+  Start Paraview, click the "Open" button in the top left corner, and navigate
+  to the `./specfem3d_globe/OUTPUT_FILES/` folder. In this folder you should
+  see two file-bundles called `reg_.._vp.vtk` and `reg_.._vs.vtk`, which are
+  the combined data files that we produced in the previous step.
 
 ---
 In this section, we have looked at how to provide the input data that is
