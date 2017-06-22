@@ -21,7 +21,7 @@ output simulation data. We will look at the following categories:
 
 ### Visualize Surface Movie
 
-In order to create a surface movie of teh simulation, we need to go through a
+In order to create a surface movie for the simulation, we need to go through a
 couple of steps that are similar to what we did for visualizing the model mesh.
 First, we need to modify the `Par_file` surch that the movie data are being
 saved. Therefore, open up the `Par_file` and set the following parameter to
