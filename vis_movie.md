@@ -109,6 +109,7 @@ visualize the surface movie:
 In this section, we have looked at how to create a surface movie for our
 simulation and how to visualize it using Paraview.
 
-In the next section, we will...
+In the next section we move on to **Part IV** of the tutorial, and look at how
+to...
 
 [Previous section](/vis_mesh.md) -- [Next section](/vis_movie.md)
