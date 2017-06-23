@@ -14,10 +14,11 @@
 This tutorial will show you how to set up and run a continental-scale
 simulation using SPECFEM3D_GLOBE.
 
-The tutorial consists of three parts. In the first part, we will look at how to
+The tutorial consists of four parts. In the first part, we will look at how to
 set up SPECFEM3D_GLOBE. In part two, we use SPECFEM3D_GLOBE to run a
-continental-scale simulation. And in parth three, we explore some additional
-topics, which includes visualization and how to use SPECFEM3D_GLOBE to run adjoint simulations.
+continental-scale simulation. In parth three, we explore how to visualize the
+output simulation data using ObsPy and Paraview, and in part four, we will look 
+at how to run adjoint simulations using SPECFEM3D_GLOBE.
 
 The event that we will be focusing on in this tutorial is the 2014 [South Napa
 earthquake](https://en.wikipedia.org/wiki/2014_South_Napa_earthquake).
@@ -52,12 +53,25 @@ earthquake](https://en.wikipedia.org/wiki/2014_South_Napa_earthquake).
 ### Part III: Additional Topics:
 
 * **Description:** In part three, we will look at how to visualize the
-  simulation output using Paraview. We will also expand our toolbox by looking
-  at how we can use SPECFEM3D_GLOBE to run adjoint simulations.
+  simulation output using ObsPy and Paraview. This includes looking at the
+  output seismograms, visualizing the model mesh, and creating a surface movie
+  for the simulation data.
 
 * **Learning goals:**
-    * Get an idea of how to visualize the simulation output.
-    * Understand the steps required to run adjoint simulations using SPECFEM3D_GLOBE.
+    * Get an idea of how to plot the output seismograms using ObsPy
+    * Learn the steps needed to output and visualize the model mesh with
+      different component models (e.g. vp, vs) using Paraview
+    * Learn how to create a surface movie for the simulation data.
+
+
+### Part IV: Adjoint Simulations (Bonus):
+
+* **Description:** In part four, we go through the steps that are needed to run
+  adjoint simulations using SPECFEM3D_GLOBE.
+
+* **Learning goals:**
+    * ...
+
 
 ---
 
