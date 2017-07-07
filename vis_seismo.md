@@ -20,6 +20,31 @@ output simulation data. We will look at the following categories:
 * Visualize Model Mesh
 * Visualize Movie
 
+### Visualize Seismograms
+
+The output seismograms can be found in the `OUTPUT_FILES/` folder. In order to
+visualize the seismograms, we will use the `plotseis.py` script that is located
+in the root folder.
+
+This script takes the names of the seismograms we want to visualize as command
+line input, and uses ObsPy under the hood to generate the plots. The usage is
+as follows:
+
+```shell
+      python3 plotseis.py [seismogram_file_names]
+```
+
+For example, if we want to visualize the seismograms `SEIS1.MXZ.sem.sac` and
+`SEIS2.MXZ.sem.sac`, we would type
+
+```shell
+      python3 plotseis.py SEIS1.MXZ.sem.sac SEIS2.MXZ.sem.sac
+```
+
+Which will give us the following plot:
+
+"INSERT PLOT HERE"
+
 ---
 In this section, we have looked at how to provide the input data that is
 necessary to run a continental-scale simulation with SPECFEM3D_GLOBE.

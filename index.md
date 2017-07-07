@@ -61,7 +61,7 @@ earthquake](https://en.wikipedia.org/wiki/2014_South_Napa_earthquake).
     * Get an idea of how to plot the output seismograms using ObsPy
     * Learn the steps needed to output and visualize the model mesh with
       different component models (e.g. vp, vs) using Paraview
-    * Learn how to create a surface movie for the simulation data.
+    * Learn how to create a surface movie for the simulation data
 
 
 ### Part IV: Adjoint Simulations (Bonus):
