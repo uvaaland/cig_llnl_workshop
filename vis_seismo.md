@@ -43,7 +43,9 @@ For example, if we want to visualize the seismograms `SEIS1.MXZ.sem.sac` and
 
 Which will give us the following plot:
 
-"INSERT PLOT HERE"
+<p align="center">
+  <img src="Fig/seismograms.png" alt="Seismograms">
+</p>
 
 ---
 In this section, we have looked at how to provide the input data that is
