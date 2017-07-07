@@ -89,8 +89,8 @@ steps in order to visualize the model mesh:
   The procedure is similar for visualizing the `vs` velocity model.
 
 ---
-In this section, we have looked at how to visualize the mesh with different
-component models (e.g. vp, vs).
+In this section, we have looked at how to visualize the model mesh with different
+components (e.g. vp, vs).
 
 In the next section, we will look at how to create a surface movie for the
 simulation data.
