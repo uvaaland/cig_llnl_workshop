@@ -38,7 +38,7 @@ For example, if we want to visualize the seismograms `SEIS1.MXZ.sem.sac` and
 `SEIS2.MXZ.sem.sac`, we would type
 
 ```shell
-      python3 plotseis.py SEIS1.MXZ.sem.sac SEIS2.MXZ.sem.sac
+      python3 plotseis.py ./OUTPUT_FILES/SEIS1.MXZ.sem.sac ./OUTPUT_FILES/SEIS2.MXZ.sem.sac
 ```
 
 Which will give us the following plot:
