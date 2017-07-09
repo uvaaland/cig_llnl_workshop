@@ -18,7 +18,7 @@ output simulation data. We will look at the following categories:
 
 * <mark>Visualize Seismograms</mark>
 * Visualize Model Mesh
-* Visualize Movie
+* Visualize Surface Movie
 
 ### Visualize Seismograms
 
