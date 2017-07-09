@@ -7,7 +7,7 @@
     1. [Visualize Seismograms](/vis_seismo.md)
     2. [Visualize Model Mesh](/vis_mesh.md)
     3. [Visualize Movie](/vis_movie.md)
-6. [Part IV: Adjoint Simulations (Bonus)](/index.md)
+6. [Part IV: Adjoint Simulations (Bonus)](/run_adj_solver.md)
 7. [Resources](resources.md)
 
 
