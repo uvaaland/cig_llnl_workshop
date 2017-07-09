@@ -7,7 +7,7 @@
     1. [Visualize Seismograms](/vis_seismo.md)
     2. [Visualize Model Mesh](/vis_mesh.md)
     3. [Visualize Surface Movie](/vis_movie.md)
-6. [Part IV: Adjoint Simulations (Bonus)](/index.md)
+6. [Part IV: Adjoint Simulations (Bonus)](/run_adj_solver.md)
 7. [Resources](resources.md)
 
 
@@ -113,4 +113,4 @@ simulation and how to visualize it using Paraview.
 In the next section we move on to **Part IV** of the tutorial, and look at how
 to...
 
-[Previous section](/vis_mesh.md) -- [Next section](/vis_movie.md)
+[Previous section](/vis_mesh.md) -- [Next section](/run_adj_solver.md)
