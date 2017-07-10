@@ -32,8 +32,8 @@ saved. Therefore, open up the `Par_file` and set the following parameter to
       ...
 
       # save AVS or OpenDX movies
-      #MOVIE_COARSE saves movie only at corners of elements (SURFACE OR VOLUME)
-      #MOVIE_COARSE does not work with create_movie_AVS_DX
+      # MOVIE_COARSE saves movie only at corners of elements (SURFACE OR VOLUME)
+      # MOVIE_COARSE does not work with create_movie_AVS_DX
       MOVIE_SURFACE                   = .true.
 
       ...

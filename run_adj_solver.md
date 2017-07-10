@@ -24,4 +24,29 @@ are similar for both applications. The steps we need to take are the following:
 * Run Kernel Simulation
 
 ### Run Forward Simulation and Save State Variables
+The first step is similar to what we have done in the previous parts of the
+tutorial. We need to run a forward simulation and save the save the state
+variables at the end of the simulation, such that we can back-propagate the
+wavefield in the kernel simulation.
 
+In order to save the state variables, we need to select this option in the
+`Par_file` by setting the following option to `.true.`
+
+      SAVE_FORWARD                    = .true.   # save last frame of forward simulation or not
+
+To save memory, we will also set the visualization parameters in the `Par-file`
+to `.false.` as follows:
+
+      ...
+
+      # save mesh files to check the mesh
+      SAVE_MESH_FILES                 = .false.
+
+      ...
+
+      # save AVS or OpenDX movies
+      # MOVIE_COARSE saves movie only at corners of elements (SURFACE OR VOLUME)
+      # MOVIE_COARSE does not work with create_movie_AVS_DX
+      MOVIE_SURFACE                   = .false.
+
+      ...
