@@ -51,7 +51,7 @@ to `.false.` as follows:
 
       ...
 
-After we have made these changes to the `Par-file`, we can go ahead and run the
+After we have made these changes to the `Par_file`, we can go ahead and run the
 forward simulation by submitting the `submit_solver` script to the job queue by
 typing
 

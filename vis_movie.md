@@ -111,6 +111,6 @@ In this section, we have looked at how to create a surface movie for our
 simulation and how to visualize it using Paraview.
 
 In the next section we move on to **Part IV** of the tutorial, and look at how
-to...
+to run adjoint simulations using SPECFEM3D_GLOBE.
 
 [Previous section](/vis_mesh.md) -- [Next section](/run_adj_solver.md)
