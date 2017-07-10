@@ -24,3 +24,11 @@ are similar for both applications. The steps we need to take are the following:
 * Run Kernel Simulation
 
 ### Prepare the Adjoint Source(s)
+After running the forward simulation and saving the state variables in the
+first step, we now need to select the stations for which we want to compute the
+time-reversed adjoint sources, and prepare them for use in the kernel
+simulation.
+
+Choose the stations you want to use from the `DATA/STATIONS` file and copy them
+into the `DATA/STATIONS_ADJOINT` file, which uses the same format as the former
+file.
