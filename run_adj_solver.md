@@ -50,3 +50,24 @@ to `.false.` as follows:
       MOVIE_SURFACE                   = .false.
 
       ...
+
+After we have made these changes to the `Par-file`, we can go ahead and run the
+forward simulation by submitting the `submit_solver` script to the job queue by
+typing
+
+```shell
+      sbatch submit_solver
+```
+
+We can then monitor the job with `squeue`, and check the
+`OUTPUT_FILES/output_solver.txt` file to make sure that the solver ran
+successfully.
+
+---
+In this section, we have looked at how to run the solver and save the state
+variables that will be used in the kernel simulation.
+
+In the next section we will look at how to prepare the adjoint sources that
+will be used in the kernel simulation to back-propagate the wavefield.
+
+[Previous section](/vis_movie.md) -- [Next section](/prepare_adj_source.md)
