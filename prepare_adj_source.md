@@ -32,3 +32,44 @@ simulation.
 Choose the stations you want to use from the `DATA/STATIONS` file and copy them
 into the `DATA/STATIONS_ADJOINT` file, which uses the same format as the former
 file.
+
+For example, in the `DATA/STATIONS` file we have the following list of
+available stations:
+
+      A22        GY       37.9293     58.1125     662.9    21.8
+      AAE        IU        9.0292     38.7656    2442.0     0.0
+      AAUS       AF        9.0349     38.7665    2437.8     0.0
+      ABKAR      KZ       49.2558     59.9431     362.0     0.0
+      ABKT       II       37.9304     58.1189     678.0     7.0
+      ...
+      WLF        GE       49.6646      6.1526     295.0     0.0
+      YNDE       AF        3.8700     11.4560     717.0     0.0
+      ZKR        GE       35.1147     26.2170     270.0     0.0
+      ZRNK       KZ       52.9510     69.0043     380.0     0.0
+      ZRN        KZ       52.9510     69.0043     420.0     0.0
+
+I want to use the `A22` and `ZKR` stations as adjoint sources in the kernel
+simulation. Therefore, I copy these lines from the `DATA/STATIONS` file and
+paste them in the `DATA/STATIONS_ADJOINT` file
+
+      A22        GY       37.9293     58.1125     662.9    21.8
+      ZKR        GE       35.1147     26.2170     270.0     0.0
+
+Then we need to generate these two adjoint sources by running the
+`gen_adj_source.py` script from the root folder. The usage for this script is
+as follows
+
+```shell
+      python3 gen_adj_source.py [station_file_names]
+```
+
+In order to generate the `A22` and `ZKR` sources, we need to provide the path
+to the associated output seismograms
+
+```shell
+      python3 gen_adj_source.py ./OUTPUT_FILES/GY.A22.MX*.ascii ./OUTPUT_FILES/GE.ZKR.MX*.ascii
+```
+
+**NOTE:** The asterix in the above command is used to include all the
+components associated with the station of interest. It is necessary to include
+all the component files for the kernel simulation to work.
