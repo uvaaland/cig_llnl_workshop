@@ -23,8 +23,8 @@ output simulation data. We will look at the following categories:
 ### Visualize Model Mesh
 
 In order to visualize the model mesh, we need to modify the `Par_file` such
-that the mesh data are being saved. Therefore, open up the `Par_file` and set
-the following parameter to `true`:
+that the mesh data are being saved. Therefore, open up `DATA/Par_file` and set
+the following parameter to `.true.`:
 
       ...
 
@@ -65,7 +65,7 @@ steps in order to visualize the model mesh:
   `xcombine_vol_data_vtk` executable that is located in the
   `./specfem3d_globe/bin/` folder. For details on how to run this executable
   directly, inspect the `combine_data.py` script and consult the
-  SPECFEM3D_GLOBE manual.
+  [SPECFEM3D_GLOBE manual](https://specfem3d-globe.readthedocs.io/en/latest/10_graphics/?highlight=xcombine_vol_data).
 
 * **Step 3: Visualize using Paraview**
 
