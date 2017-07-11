@@ -47,6 +47,9 @@ scheduler:
       srun -n 64 ./bin/xmeshfem3D
 ```
 
+We need to modify this file such that `path/to/specfem3d_globe` is the path to
+the current working directory.
+
 The number of processors is determined by the parameters that we set in the
 `Par_file`
 
