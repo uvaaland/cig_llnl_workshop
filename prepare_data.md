@@ -58,7 +58,7 @@ set up the simulation, we need to:
 
       Station    Network    Latitude(degrees)    Longitude(degrees)    Elevation(m)    Burial(m)
 
-  For the South Napa earthquake, the `STATIONS` file has 349 number of stations:
+  For the South Napa earthquake, the `STATIONS` file has ??? stations:
 
       A22        GY       37.9293     58.1125     662.9    21.8
       AAE        IU        9.0292     38.7656    2442.0     0.0
@@ -132,6 +132,7 @@ set up the simulation, we need to:
       ...
 
       # output format for the seismograms (one can use either or all of the three formats)
+      OUTPUT_SEISMOS_ASCII_TEXT       = .false.
       OUTPUT_SEISMOS_SAC_BINARY       = .true.
 
       ...
