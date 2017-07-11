@@ -70,6 +70,6 @@ to the associated output seismograms
       python3 gen_adj_source.py ./OUTPUT_FILES/GY.A22.MX*.ascii ./OUTPUT_FILES/GE.ZKR.MX*.ascii
 ```
 
-**NOTE:** The asterix in the above command is used to include all the
+**NOTE:** The asterix (`*`) in the above command is used to include all the
 components associated with the station of interest. It is necessary to include
 all the component files for the kernel simulation to work.
