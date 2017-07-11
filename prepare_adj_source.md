@@ -87,4 +87,11 @@ and `ZKR` sources, we expect to see the following files in the `SEM/` folder:
       GE.ZKR.MXN.adj
       GE.ZKR.MXZ.adj
 
+---
+In this section, we have looked at how to prepare the adjoint sources that will
+be used in the kernel simulation to back-propagate the wavefiled.
 
+In the next section we will complete the final step and run the kernel
+simulation.
+
+[Previous section](/run_adj_solver.md) -- [Next section](/run_adj_kernel.md)
