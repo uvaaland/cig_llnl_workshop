@@ -70,7 +70,9 @@ earthquake](https://en.wikipedia.org/wiki/2014_South_Napa_earthquake).
   adjoint simulations using SPECFEM3D_GLOBE.
 
 * **Learning goals:**
-    * ...
+    * Get an idea of what steps are required to run adjoint simulations using
+      SPECFEM3D_GLOBE
+    * Learn how to generate adjoint sources
 
 
 ---
