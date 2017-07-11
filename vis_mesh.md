@@ -49,7 +49,7 @@ steps in order to visualize the model mesh:
       sbatch submit_mesher
 ```
   And use `squeue` to monitor the job. Once the job finishes, we can check the
-  `OUTPUT_FILES/output_mesher.txt` to make sure that the mesher ran
+  `OUTPUT_FILES/output_mesher.txt` file to make sure that the mesher ran
   successfully, and then we can move on to the next step.
 
 * **Step 2: Combine the output mesh data**

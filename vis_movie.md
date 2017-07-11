@@ -26,8 +26,8 @@ In order to create a surface movie for the simulation, we need to go through a
 couple of steps that are similar to what we did for visualizing the model mesh.
 
 First, we need to modify the `Par_file` such that the movie data are being
-saved. Therefore, open up the `Par_file` and set the following parameter to
-`true`:
+saved. Therefore, open up `DATA/Par_file` and set the following parameter to
+`.true.`:
 
       ...
 
@@ -53,18 +53,19 @@ visualize the surface movie:
 ```shell
       sbatch submit_solver
 ```
-  And use `squeue` to monitor the job.
-
+  And use `squeue` to monitor the job. Once the job finishes, we can check the
+  `OUTPUT_FILES/output_solver.txt` file to make sure that the solver ran
+  successfully, and then we can move on to the next step.
 
 * **Step 2: Generate the movie data**
 
   The surface movie data files are stored in the
-  `./specfem3d_globe/OUTPUT_FILES/` folder as `moviedata*`. In order to
-  visualize the surface movie in `Paraview`, we need to convert these datafiles
-  to a format that `Paraview` can work with.
+  `OUTPUT_FILES/` folder as `moviedata*`. In order to visualize the surface 
+  movie in `Paraview`, we need to convert these datafiles to a format that 
+  `Paraview` can work with.
 
   In order to do this, we run the `xcreate_movie_AVS_DX` that is located in the
-  `./specfem3d_globe/bin/` folder. From the root folder, run the following
+  `bin/` folder. From the root folder, run the following
   command:
 
 ```shell
@@ -77,21 +78,21 @@ visualize the surface movie:
   * 1st prompt: Choose option `2 = create files in AVS UCD format with 
     individual files`.
 
-  * 2nd prompt: Choose the timestep you want the movie to `start`.
+  * 2nd prompt: Choose the timestep you want the movie to `start` (e.g. 1).
 
-  * 3rd prompt: Choose the timested you want the movie to `end`.
+  * 3rd prompt: Choose the timested you want the movie to `end` (e.g. -1).
 
-  * 4th prompt: Choose the `component` you want to visualize.
+  * 4th prompt: Choose the `component` you want to visualize (e.g. 1)
 
   The movie data will now be converted to `AVS` format and stored in the
-  `./specfem3d_globe/OUTPUT_FILES/` folder.
+  `OUTPUT_FILES/` folder.
 
 * **Step 3: Visualize using Paraview**
 
   Start `Paraview`, click the `Open` button in the top left corner, and
-  navigate to the `./specfem3d_globe/OUTPUT_FILES/` folder. In this folder you
-  should see a file-bundle called `AVS_movie_*.inp`, which is the formatted
-  movie data that we generated in the previous step.
+  navigate to the `OUTPUT_FILES/` folder. In this folder you should see 
+  a file-bundle called `AVS_movie_*.inp`, which is the formatted movie 
+  data that we generated in the previous step.
 
   In order to visualize the surface movie, select the `AVS_movie_*.inp` bundle
   (not the individual files contained in the bundle) and click `OK`.
