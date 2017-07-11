@@ -23,7 +23,7 @@ output simulation data. We will look at the following categories:
 ### Visualize Seismograms
 
 The output seismograms can be found in the `OUTPUT_FILES/` folder. In order to
-visualize the seismograms, we will use the `plotseis.py` script that is located
+visualize the seismograms, we will use the `seisplot.py` script that is located
 in the root folder.
 
 This script takes the names of the seismograms we want to visualize as command
@@ -31,14 +31,14 @@ line input, and uses ObsPy under the hood to generate the plots. The usage is
 as follows:
 
 ```shell
-      python3 plotseis.py [seismogram_file_names]
+      python3 seisplot.py [seismogram_file_names]
 ```
 
 For example, if we want to visualize the seismograms `SEIS1.MXZ.sem.sac` and
 `SEIS2.MXZ.sem.sac`, we would type
 
 ```shell
-      python3 plotseis.py ./OUTPUT_FILES/SEIS1.MXZ.sem.sac ./OUTPUT_FILES/SEIS2.MXZ.sem.sac
+      python3 seisplot.py ./OUTPUT_FILES/SEIS1.MXZ.sem.sac ./OUTPUT_FILES/SEIS2.MXZ.sem.sac
 ```
 
 Which will give us the following plot:
