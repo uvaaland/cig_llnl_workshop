@@ -67,9 +67,9 @@ highlighted in the following tree-structure:
 * **OUTPUT_FILES/:** Folder where the output seismograms are stored
 * **DATABASES_MPI/:** Folder where the mesh partitions are stored
 * **SEM/:** Folder where the adjoint sources are generated
-* **combine_data.py:** script for combining volumetric data files
-* **gen_adj_source.py:** script for generating adjoint sources
-* **seisplot.py:** script for plotting seismograms using ObsPy
+* combine_data.py: script for combining volumetric data files
+* gen_adj_source.py: script for generating adjoint sources
+* seisplot.py: script for plotting seismograms using ObsPy
 
 ### Configuration
 In order to generate the `Makefile`, we need to configure SPECFEM3D_GLOBE. We
