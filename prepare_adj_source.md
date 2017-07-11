@@ -76,7 +76,7 @@ all the component files for the kernel simulation to work.
 
 This script then copies the relevant seismograms, renames them, and stores them
 in the `SEM/` folder. To check that the adjoint sources were successfully
-generated, inspect the `SEM/` folder to check that there are three component
+generated, inspect this folder to check that there are three component
 files associated with each adjoint source. In the example case with the `A22`
 and `ZKR` sources, we expect to see the following files in the `SEM/` folder:
 
