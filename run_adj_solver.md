@@ -34,7 +34,7 @@ In order to save the state variables, we need to select this option in the
 
       SAVE_FORWARD                    = .true.   # save last frame of forward simulation or not
 
-We need the output seismograms ot be in `ASCII` format, so we change the
+We need the output seismograms to be in `ASCII` format, so we change the
 `Par_file` accordingly:
 
       # output format for the seismograms (one can use either or all of the three formats)
