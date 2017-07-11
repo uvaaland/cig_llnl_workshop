@@ -48,9 +48,9 @@ available stations:
       ZRNK       KZ       52.9510     69.0043     380.0     0.0
       ZRN        KZ       52.9510     69.0043     420.0     0.0
 
-I want to use the `A22` and `ZKR` stations as adjoint sources in the kernel
-simulation. Therefore, I copy these lines from the `DATA/STATIONS` file and
-paste them in the `DATA/STATIONS_ADJOINT` file
+Say we want to use the `A22` and `ZKR` stations as adjoint sources in the kernel
+simulation. Then, we copy these lines from the `DATA/STATIONS` file and
+paste them into the `DATA/STATIONS_ADJOINT` file:
 
       A22        GY       37.9293     58.1125     662.9    21.8
       ZKR        GE       35.1147     26.2170     270.0     0.0
