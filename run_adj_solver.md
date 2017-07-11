@@ -25,7 +25,7 @@ are similar for both applications. The steps we need to take are the following:
 
 ### Run Forward Simulation and Save State Variables
 The first step is similar to what we have done in the previous parts of the
-tutorial. We need to run a forward simulation and save the save the state
+tutorial. We need to run a forward simulation and  save the state
 variables at the end of the simulation, such that we can back-propagate the
 wavefield in the kernel simulation.
 
@@ -46,11 +46,6 @@ to `.false.` as follows:
 
       ...
 
-      # save mesh files to check the mesh
-      SAVE_MESH_FILES                 = .false.
-
-      ...
-
       # save AVS or OpenDX movies
       # MOVIE_COARSE saves movie only at corners of elements (SURFACE OR VOLUME)
       # MOVIE_COARSE does not work with create_movie_AVS_DX
@@ -58,9 +53,13 @@ to `.false.` as follows:
 
       ...
 
+      # save mesh files to check the mesh
+      SAVE_MESH_FILES                 = .false.
+
+      ...
+
 After we have made these changes to the `Par_file`, we can go ahead and run the
-forward simulation by submitting the `submit_solver` script to the job queue by
-typing
+forward simulation by submitting the `submit_solver` script to the job queue
 
 ```shell
       sbatch submit_solver
