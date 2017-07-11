@@ -48,11 +48,14 @@ script we use for this task is the `submit_solver` script:
       module load intel/16.0/64/16.0.4.258
       module load intel-mpi/intel/5.1.3/64
       
-      # change directory to build
-      cd /tigress/uvaaland/SPECFEM3D_GLOBE/specfem3d_globe
+      # change directory to build (e.g. /scratch/gpfs/uvaaland/tutorial/specfem3d_glob)
+      cd path/to/specfem3d_globe
       
       srun -n 64 ./bin/xspecfem3D
 ```
+
+As in the previous section, we need to modify this file such that `path/to/specfem3d_globe`
+is the path to the current working directory.
 
 We submit the job by typing in the command line
 
