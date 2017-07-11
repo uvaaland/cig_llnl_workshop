@@ -51,3 +51,11 @@ ran successfully.
 For details on how to visualize the output from the kernel simulations, and
 instructions on how to run adjoint simulations for sources, please consult the
 SPECFEM3D_GLOBE [manual](https://specfem3d-globe.readthedocs.io/en/latest/06_adjoint_simulations/).
+
+---
+In this section, we have looked at how to run a kernel simulation using
+SPECFEM3D_GLOBE.
+
+In the next section we will 
+
+[Previous section](/prepare_adj_source.md) -- [Next section](/run_adj_kernel.md)
