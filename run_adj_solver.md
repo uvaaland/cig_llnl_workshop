@@ -34,7 +34,14 @@ In order to save the state variables, we need to select this option in the
 
       SAVE_FORWARD                    = .true.   # save last frame of forward simulation or not
 
-To save memory, we will also set the visualization parameters in the `Par-file`
+We need the output seismograms ot be in `ASCII` format, so we change the
+`Par_file` accordingly:
+
+      # output format for the seismograms (one can use either or all of the three formats)
+      OUTPUT_SEISMOS_ASCII_TEXT       = .true.
+      OUTPUT_SEISMOS_SAC_BINARY       = .false.
+
+Furthermore, to save memory, we will also set the visualization parameters in the `Par_file`
 to `.false.` as follows:
 
       ...
