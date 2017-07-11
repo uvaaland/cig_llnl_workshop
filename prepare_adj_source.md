@@ -70,6 +70,21 @@ to the associated output seismograms
       python3 gen_adj_source.py ./OUTPUT_FILES/GY.A22.MX*.ascii ./OUTPUT_FILES/GE.ZKR.MX*.ascii
 ```
 
-**NOTE:** The asterix (`*`) in the above command is used to include all the
+**NOTE:** The asterix `*` in the above command is used to include all the
 components associated with the station of interest. It is necessary to include
 all the component files for the kernel simulation to work.
+
+This script then copies the relevant seismograms, renames them, and stores them
+in the `SEM/` folder. To check that the adjoint sources were successfully
+generated, inspect the `SEM/` folder to check that there are three component
+files associated with each adjoint source. In the example case with the `A22`
+and `ZKR` sources, we expect to see the following files in the `SEM/` folder:
+
+      GY.A22.MXE.adj
+      GY.A22.MXN.adj
+      GY.A22.MXZ.adj
+      GE.ZKR.MXE.adj
+      GE.ZKR.MXN.adj
+      GE.ZKR.MXZ.adj
+
+
