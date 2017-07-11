@@ -7,7 +7,7 @@ layout: default
 2. [Introduction](/intro_specfem.md)
 3. [Part I: Setting up SPECFEM3D_GLOBE](/setup_specfem3d.md)
 4. [Part II: Continental-scale Simulations](/prepare_data.md)
-5. [Part III: Visualization](/partIII.md)
+5. [Part III: Visualization](/vis_seismo.md)
 6. [Part IV: Adjoint Simulations (Bonus)](/run_adj_solver.md)
 7. [Resources](resources.md)
 
@@ -43,25 +43,33 @@ highlighted in the following tree-structure:
 
 ```
       ./specfem3d_globe
-      +-- DATA
+      +-- DATA/
       |   +-- STATIONS
+      |   +-- STATIONS_ADJOINT
       |   +-- CMTSOLUTION
       |   +-- Par_file
-      +-- OUTPUT_FILES
-      +-- DATABASES_MPI
-      +-- src
+      +-- OUTPUT_FILES/
+      +-- DATABASES_MPI/
+      +-- SEM/
+      +-- combine_data.py
+      +-- gen_adj_source.py
+      +-- seisplot.py
 ```
 
 #### Explanation
-* **DATA:**  Folder that holds all the parameter files that are used for running the simulation.
+* **DATA/:**  Folder that holds all the parameter files that are used for running the simulation
 
-  * STATIONS: Contains the names and locations of all the stations.
-  * CMTSOLUTION: Contains the source characteristics.
-  * Par_file: Contains the simulation parameters.
+  * STATIONS: Contains the names and locations of all the stations
+  * STATIONS_ADJOINT: Contains the names and locations of all the stations used as adjoint sources
+  * CMTSOLUTION: Contains the source characteristics
+  * Par_file: Contains the simulation parameters
 
-* **OUTPUT_FILES:** Folder where the output seismograms are stored.
-* **DATABASES_MPI:** Folder where the mesh partitions are stored.
-* **src:** Folder where the SPECFEM3D_GLOBE source code is located.
+* **OUTPUT_FILES/:** Folder where the output seismograms are stored
+* **DATABASES_MPI/:** Folder where the mesh partitions are stored
+* **SEM/:** Folder where the adjoint sources are generated
+* **combine_data.py:** script for combining volumetric data files
+* **gen_adj_source.py:** script for generating adjoint sources
+* **seisplot.py:** script for plotting seismograms using ObsPy
 
 ### Configuration
 In order to generate the `Makefile`, we need to configure SPECFEM3D_GLOBE. We
@@ -86,7 +94,7 @@ configuration with other compilers.
       # Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
 ```
 
-* **Step 3:** Configure SPECFEM3D_GLOBE by running the following command in the root folder (`./specfem3d_globe`):
+* **Step 3:** Configure SPECFEM3D_GLOBE by running the following command in the root folder (`specfem3d_globe/`):
 
 ```shell
       ./configure CC=icc CXX=icpc FC=ifort MPIFC=mpif90
@@ -96,7 +104,7 @@ configuration with other compilers.
 Once we have configured SPECFEM3D_GLOBE, we can compile the source code by
 typing `make all` in the root directory. This will produce all the binary files
 that we will use in the remaining parts of this tutorial. The resulting binary
-files can be found in the `./specfem3d_globe/bin` folder.
+files can be found in the `bin/` folder.
 
 **NOTE:** The solver executable `xspecfem3D` uses static allocations which will
 depend upon the parameters set in the `Par_file`. This means that if you change any
