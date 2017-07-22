@@ -8,7 +8,7 @@
 7. [Resources](resources.md)
 
 
-## Suggested Further Work
+## Further Work
 If you have finished the tutorial up until this point, you could attempt one of
 the following tasks:
 * Run a forward simulation with a different model resolution
