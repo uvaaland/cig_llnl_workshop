@@ -25,6 +25,7 @@ the following tasks:
       NPROC_XI                        = 16
       NPROC_ETA                       = 16
 
+  **Recall:** `#processors = NPROC_XI * NPROC_ETA * NCHUNKS`
 
 * Setup and run a simulation with an event of your choice
 * Run a forward simulation with a different background model and compare the
