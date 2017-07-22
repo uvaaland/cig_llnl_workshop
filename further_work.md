@@ -30,9 +30,7 @@ the following tasks:
 * Setup and run a simulation with an event of your choice
 
   **Hint:** Replace the `CMTSOLUTION` file with the CMT solution for your
-  event. You can find this at the following link:
-
-      http://www.globalcmt.org/
+  event. You can find this information at the [Global CMT web page](http://www.globalcmt.org/).
 
   It might also be necessary to change the following parameters in the
   `Par_file`, depending on the location of the event
