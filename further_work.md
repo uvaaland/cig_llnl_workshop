@@ -13,7 +13,7 @@
 If you have finished the tutorial up until this point, you could attempt one of
 the following tasks:
 
-### Run a forward simulation with a different model resolution
+#### Run a forward simulation with a different model resolution
 
   **Hint:** Change the following parameters in the `Par_file` and the submission
   scripts `submit_mesher` and `submit_solver` accordingly
@@ -29,7 +29,7 @@ the following tasks:
 
   **Recall:** `#processors = NPROC_XI * NPROC_ETA * NCHUNKS`
 
-### Setup and run a simulation with an event of your choice
+#### Setup and run a simulation with an event of your choice
 
   **Hint:** Replace the `CMTSOLUTION` file with the CMT solution for your
   event. You can find this information at the [Global CMT web page](http://www.globalcmt.org/).
@@ -41,8 +41,7 @@ the following tasks:
       CENTER_LATITUDE_IN_DEGREES      = 40.d0
       CENTER_LONGITUDE_IN_DEGREES     = -120.d0
 
-### Run a forward simulation with a different background model and compare the
-  seismograms for the two simulations
+#### Run a forward simulation with a different background model and compare the seismograms for the two simulations
 
   **Hint:** Change the following parameter in the `Par_file` to one of the
   other models that is listed.
