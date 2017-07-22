@@ -25,6 +25,10 @@ earthquake](https://en.wikipedia.org/wiki/2014_South_Napa_earthquake).
 
 
 ### Requirements
+In order to complete this tutorial, the following software must be installed
+* Intel compilers
+* Python3
+* Obspy
 * Paraview
 
 ### Part I: Setting up SPECFEM3D_GLOBE: 
