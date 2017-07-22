@@ -28,6 +28,19 @@ the following tasks:
   **Recall:** `#processors = NPROC_XI * NPROC_ETA * NCHUNKS`
 
 * Setup and run a simulation with an event of your choice
+
+  **Hint:** Replace the `CMTSOLUTION` file with the CMT solution for your
+  event. You can find this at the following link:
+
+      http://www.globalcmt.org/
+
+  It might also be necessary to change the following parameters in the
+  `Par_file`, depending on the location of the event
+
+      # angular width of the first chunk (not used if full sphere with six chunks)
+      CENTER_LATITUDE_IN_DEGREES      = 40.d0
+      CENTER_LONGITUDE_IN_DEGREES     = -120.d0
+
 * Run a forward simulation with a different background model and compare the
   seismograms for the two simulations
 
