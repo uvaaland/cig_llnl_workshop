@@ -43,7 +43,7 @@ the following tasks:
   seismograms for the two simulations
 
   **Hint:** Change the following parameter in the `Par_file` to one of the
-  other models that are listed.
+  other models that is listed.
 
       # 1D models with real structure:
       # 1D_isotropic_prem, 1D_transversely_isotropic_prem, 1D_iasp91, 1D_1066a,
