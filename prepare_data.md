@@ -8,7 +8,8 @@
     3. [Run the Solver](/run_solver.md)
 5. [Part III: Visualization](/vis_seismo.md)
 6. [Part IV: Adjoint Simulations (Bonus)](/run_adj_solver.md)
-7. [Resources](resources.md)
+7. [Further Work](/further_work.md)
+8. [Resources](/resources.md)
 
 
 ## Part II: Continental-scale Simulations

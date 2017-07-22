@@ -8,7 +8,8 @@
     1. [Run Forward Simulation and Save State Variables](/run_adj_solver.md)
     2. [Prepare the Adjoint Source(s)](/prepare_adj_source.md)
     3. [Run Kernel Simulation](/run_adj_kernel.md)
-7. [Resources](resources.md)
+7. [Further Work](/further_work.md)
+8. [Resources](/resources.md)
 
 
 ## Part IV: Adjoint Simulations (Bonus)

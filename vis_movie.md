@@ -8,7 +8,8 @@
     2. [Visualize Model Mesh](/vis_mesh.md)
     3. [Visualize Surface Movie](/vis_movie.md)
 6. [Part IV: Adjoint Simulations (Bonus)](/run_adj_solver.md)
-7. [Resources](resources.md)
+7. [Further Work](/further_work.md)
+8. [Resources](/resources.md)
 
 
 ## Part III: Visualization
