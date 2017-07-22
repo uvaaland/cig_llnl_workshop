@@ -41,8 +41,12 @@ We need the output seismograms to be in `ASCII` format, so we change the
       OUTPUT_SEISMOS_ASCII_TEXT       = .true.
       OUTPUT_SEISMOS_SAC_BINARY       = .false.
 
-Furthermore, to save memory, we will also set the visualization parameters in the `Par_file`
+Furthermore, to save memory, we will also set the visualization parameters and `ATTENUATION` in the `Par_file`
 to `.false.` as follows:
+
+      ...
+
+      ATTENUATION                     = .false.
 
       ...
 

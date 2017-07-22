@@ -16,7 +16,7 @@ simulation using SPECFEM3D_GLOBE.
 
 The tutorial consists of four parts. In the first part, we will look at how to
 set up SPECFEM3D_GLOBE. In part two, we use SPECFEM3D_GLOBE to run a
-continental-scale simulation. In parth three, we explore how to visualize the
+continental-scale simulation. In part three, we explore how to visualize the
 output simulation data using ObsPy and Paraview, and in part four, we will look 
 at how to run adjoint simulations using SPECFEM3D_GLOBE.
 
