@@ -59,4 +59,4 @@ SPECFEM3D_GLOBE.
 
 In the next section we will 
 
-[Previous section](/prepare_adj_source.md) -- [Next section](/run_adj_kernel.md)
+[Previous section](/prepare_adj_source.md) -- [Next section](/further_work.md)
