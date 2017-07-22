@@ -58,7 +58,7 @@ In order to complete this tutorial, the following software must be installed
     * Get an idea of how to submit the mesh and solver job on the cluster
 
 
-### Part III: Additional Topics:
+### Part III: Visualization:
 
 * **Description:** In part three, we will look at how to visualize the
   simulation output using ObsPy and Paraview. This includes looking at the
