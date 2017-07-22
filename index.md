@@ -24,6 +24,9 @@ The event that we will be focusing on in this tutorial is the 2014 [South Napa
 earthquake](https://en.wikipedia.org/wiki/2014_South_Napa_earthquake).
 
 
+## Requirements
+* Paraview
+
 ### Part I: Setting up SPECFEM3D_GLOBE: 
 
 * **Description:** In the first part of the tutorial, we will go through the steps
