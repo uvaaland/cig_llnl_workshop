@@ -62,8 +62,12 @@ to `.false.` as follows:
 
       ...
 
-After we have made these changes to the `Par_file`, we can go ahead and run the
-forward simulation by submitting the `submit_solver` script to the job queue
+Changing `ATTENUATION` to `.false` requires that we recompile the code.
+Therefore, we need to run `make clean` followed by `make` in the root folder
+and allow the compilation to complete.
+
+After the code has compiled, we can go ahead and run the forward simulation 
+by submitting the `submit_solver` script to the job queue
 
 ```shell
       sbatch submit_solver
