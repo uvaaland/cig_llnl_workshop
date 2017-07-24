@@ -49,12 +49,13 @@ available stations:
       ZRNK       KZ       52.9510     69.0043     380.0     0.0
       ZRN        KZ       52.9510     69.0043     420.0     0.0
 
-Say we want to use the `A22` and `ZKR` stations as adjoint sources in the kernel
-simulation. Then, we copy these lines from the `DATA/STATIONS` file and
+Say we want to use the `AZ.BZN`, `BK.CVS`, and `CI.VOG` stations as adjoint sources
+in the kernel simulation. Then, we copy these lines from the `DATA/STATIONS` file and
 paste them into the `DATA/STATIONS_ADJOINT` file:
 
-      A22        GY       37.9293     58.1125     662.9    21.8
-      ZKR        GE       35.1147     26.2170     270.0     0.0
+      CVS        BK       38.3453   -122.4584     295.1    23.2
+      VOG        CI       36.3210   -119.3823      90.0     0.0
+      BZN        AZ       33.4915   -116.6670    1301.0     0.0
 
 Then we need to generate these two adjoint sources by running the
 `gen_adj_source.py` script from the root folder. The usage for this script is
@@ -64,11 +65,11 @@ as follows
       python3 gen_adj_source.py [station_file_names]
 ```
 
-In order to generate the `A22` and `ZKR` sources, we need to provide the path
+In order to generate the `AZ.BZN`, `BK.CVS`, and `CI.VOG` sources, we need to provide the path
 to the associated output seismograms
 
 ```shell
-      python3 gen_adj_source.py ./OUTPUT_FILES/GY.A22.MX*.ascii ./OUTPUT_FILES/GE.ZKR.MX*.ascii
+      python3 gen_adj_source.py ./OUTPUT_FILES/AZ.BZN.BX*.ascii ./OUTPUT_FILES/BK.CVS.BX*.ascii ./OUTPUT_FILES/CI.VOG.BX*.ascii
 ```
 
 **NOTE:** The asterix `*` in the above command is used to include all the
@@ -78,15 +79,18 @@ all the component files for the kernel simulation to work.
 This script then copies the relevant seismograms, renames them, and stores them
 in the `SEM/` folder. To check that the adjoint sources were successfully
 generated, inspect this folder to check that there are three component
-files associated with each adjoint source. In the example case with the `A22`
-and `ZKR` sources, we expect to see the following files in the `SEM/` folder:
+files associated with each adjoint source. In the example case with the `AZ.BZN`,
+`BK.CVS`, and `CI.VOG` sources, we expect to see the following files in the `SEM/` folder:
 
-      GY.A22.MXE.adj
-      GY.A22.MXN.adj
-      GY.A22.MXZ.adj
-      GE.ZKR.MXE.adj
-      GE.ZKR.MXN.adj
-      GE.ZKR.MXZ.adj
+      AZ.BZN.BXE.adj
+      AZ.BZN.BXN.adj
+      AZ.BZN.BXZ.adj
+      BK.CVS.BXE.adj
+      BK.CVS.BXN.adj
+      BK.CVS.BXZ.adj
+      CI.VOG.BXE.adj
+      CI.VOG.BXN.adj
+      CI.VOG.BXZ.adj
 
 ---
 In this section, we have looked at how to prepare the adjoint sources that will
