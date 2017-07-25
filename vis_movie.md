@@ -109,7 +109,7 @@ visualize the surface movie:
   You might want to adjust the color scale to your own liking.
 
 <figure>
-  <video src="Fig/surf_mov.mp4" controls preload></video>
+  <video src="Fig/orange.mp4" controls preload></video>
   <figcaption>Surface movie visualization of the South Napa earthquake.</figcaption>
 </figure>
 
