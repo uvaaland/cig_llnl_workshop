@@ -47,24 +47,19 @@ the following tasks:
   other models that is listed.
 
       # 1D models with real structure:
-      # 1D_isotropic_prem, 1D_transversely_isotropic_prem, 1D_iasp91, 1D_1066a,
-      1D_ak135f_no_mud, 1D_ref, 1D_ref_iso, 1D_jp3d,1D_sea99
+      # 1D_isotropic_prem, 1D_transversely_isotropic_prem, 1D_iasp91, 1D_1066a, 1D_ak135f_no_mud, 1D_ref, 1D_ref_iso, 1D_jp3d,1D_sea99
       #
       # 1D models with only one fictitious averaged crustal layer:
-      # 1D_isotropic_prem_onecrust, 1D_transversely_isotropic_prem_onecrust,
-      1D_iasp91_onecrust, 1D_1066a_onecrust, 1D_ak135f_no_mud_onecrust
+      # 1D_isotropic_prem_onecrust, 1D_transversely_isotropic_prem_onecrust, 1D_iasp91_onecrust, 1D_1066a_onecrust, 1D_ak135f_no_mud_onecrust
       #
       # fully 3D models:
-      # transversely_isotropic_prem_plus_3D_crust_2.0, 3D_anisotropic,
-      3D_attenuation,
-      # s20rts, s40rts, s362ani, s362iso, s362wmani, s362ani_prem, s362ani_3DQ,
-      s362iso_3DQ,
+      # transversely_isotropic_prem_plus_3D_crust_2.0, 3D_anisotropic, 3D_attenuation,
+      # s20rts, s40rts, s362ani, s362iso, s362wmani, s362ani_prem, s362ani_3DQ, s362iso_3DQ,
       # s29ea, s29ea,sea99_jp3d1994,sea99,jp3d1994,heterogen,full_sh
       #
       # 3D models with 1D crust: append "_1Dcrust" the the 3D model name
       #                          to take the 1D crustal model from the
-      #                          associated reference model rather than the default
-      3D crustal model
+      #                          associated reference model rather than the default 3D crustal model
       # e.g. s20rts_1Dcrust, s362ani_1Dcrust, etc.
       MODEL                           = s362ani
 
