@@ -91,10 +91,12 @@ steps in order to visualize the model mesh:
 
   The procedure is similar for visualizing the `vs` velocity model.
 
-<figure>
+<p align="center">
   <img src="Fig/chunk_mesh.png" alt="Regional mesh">
-  <figcaption>Visualization of the model mesh with the vp component.</figcaption>
-</figure>
+</p>
+
+  The above figure shows the visualization of the model mesh with the vp
+  component.
 
 
 ---
