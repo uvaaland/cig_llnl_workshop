@@ -95,8 +95,7 @@ steps in order to visualize the model mesh:
   <img src="Fig/chunk_mesh.png" alt="Regional mesh">
 </p>
 
-  The above figure shows the visualization of the model mesh with the vp
-  component.
+  Visualization of the model mesh with the vp component.
 
 
 ---
