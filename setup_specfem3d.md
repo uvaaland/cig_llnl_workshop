@@ -85,8 +85,8 @@ configuration with other compilers.
       # Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
       
       mpif90 --version
-      ifort_orig (IFORT) 16.0.3 20160415
-      Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
+      # ifort_orig (IFORT) 16.0.3 20160415
+      # Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
 ```
 
 * **Step 2:** Configure SPECFEM3D_GLOBE by running the following command in the root folder (`specfem3d_globe/`):
