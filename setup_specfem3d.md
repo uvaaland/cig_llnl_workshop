@@ -77,15 +77,21 @@ In order to generate the `Makefile`, we need to configure SPECFEM3D_GLOBE. We
 will configure it using `Intel compilers`. Refer to the manual for
 configuration with other compilers.
 
-* **Step 1:** Check that the compilers are available
+* **Step 1:** Load the `Intel compilers` by typing the following in the command line
+
+```shell
+      module load intel/16.0.4
+```
+
+* **Step 2:** Check that the compilers have been loaded
 
 ```shell
       mpicc --version
-      # icc_orig (ICC) 16.0.3 20160415
+      # icc_orig (ICC) 16.0.4 20160811
       # Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
-      
+
       mpif90 --version
-      # ifort_orig (IFORT) 16.0.3 20160415
+      # ifort_orig (IFORT) 16.0.4 20160811
       # Copyright (C) 1985-2016 Intel Corporation.  All rights reserved.
 ```
 
