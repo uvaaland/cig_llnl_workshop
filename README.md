@@ -15,5 +15,5 @@ at how to run adjoint simulations using SPECFEM3D_GLOBE.
   <img src="Fig/cover-small.jpeg" alt="SPECFEM3D_GLOBE">
 </p>
 
-# [Link to Tutorial](http://uvaaland.github.io/cig_llnl_workshop)
+# [Go to Tutorial...](http://uvaaland.github.io/cig_llnl_workshop)
 
