@@ -83,7 +83,7 @@ The shortest period that is resolved in the seismograms can be determined by
 
       shortest period ~ (256 / NEX_XI) * (ANGULAR_WIDTH_XI_IN_DEGREES / 90) * 17
 
-Which for our setup gives us a shortest period of about `(256 / 128) * (90 / 90) * 17 = 34`. That is, the seismograms in this simulation will be accurate down to approximately 34 s periods.
+Which for our setup gives us a shortest period of about `(256 / 192) * (45 / 90) * 17 = 11`. That is, the seismograms in this simulation will be accurate down to approximately 11 s periods.
 
 ---
 In this section, we have looked at how to generate a mesh for the
