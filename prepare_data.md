@@ -91,20 +91,20 @@ set up the simulation, we need to:
       NCHUNKS                         = 1
       
       # angular width of the first chunk (not used if full sphere with six chunks)
-      ANGULAR_WIDTH_XI_IN_DEGREES     = 90.d0   # angular size of a chunk
-      ANGULAR_WIDTH_ETA_IN_DEGREES    = 90.d0
+      ANGULAR_WIDTH_XI_IN_DEGREES     = 45.d0   # angular size of a chunk
+      ANGULAR_WIDTH_ETA_IN_DEGREES    = 45.d0
       CENTER_LATITUDE_IN_DEGREES      = 40.d0
-      CENTER_LONGITUDE_IN_DEGREES     = 10.d0
-      GAMMA_ROTATION_AZIMUTH          = 20.d0
+      CENTER_LONGITUDE_IN_DEGREES     = -120.d0
+      GAMMA_ROTATION_AZIMUTH          = 0.d0
       
       # number of elements at the surface along the two sides of the first chunk
       # (must be multiple of 16 and 8 * multiple of NPROC below)
-      NEX_XI                          = 128
-      NEX_ETA                         = 128
+      NEX_XI                          = 192
+      NEX_ETA                         = 192
       
       # number of MPI processors along the two sides of the first chunk
-      NPROC_XI                        = 8
-      NPROC_ETA                       = 8
+      NPROC_XI                        = 12
+      NPROC_ETA                       = 12
 
       ...
 
@@ -123,7 +123,7 @@ set up the simulation, we need to:
       ABSORBING_CONDITIONS            = .true.
 
       # record length in minutes
-      RECORD_LENGTH_IN_MINUTES        = 25.0d0
+      RECORD_LENGTH_IN_MINUTES        = 10.0d0
 
       ...
 
