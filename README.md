@@ -12,3 +12,5 @@ output simulation data using ObsPy and Paraview, and in part four, we will look
 at how to run adjoint simulations using SPECFEM3D_GLOBE.
 
 http://uvaaland.github.io/cig_llnl_workshop
+
+[Link to Tutorial](http://uvaaland.github.io/cig_llnl_workshop)
