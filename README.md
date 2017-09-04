@@ -11,5 +11,9 @@ continental-scale simulation. In part three, we explore how to visualize the
 output simulation data using ObsPy and Paraview, and in part four, we will look 
 at how to run adjoint simulations using SPECFEM3D_GLOBE.
 
+<p align="center">
+  <img src="Fig/cover-small.jpeg" alt="SPECFEM3D_GLOBE">
+</p>
+
 # [Link to Tutorial](http://uvaaland.github.io/cig_llnl_workshop)
 
