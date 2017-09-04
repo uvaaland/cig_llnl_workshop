@@ -1,4 +1,4 @@
-# cig_llnl_workshop
+# CIG-LLNL COMPUTATIONAL SEISMOLOGY WORKSHOP
 
 ## Overview
 
