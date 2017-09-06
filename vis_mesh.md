@@ -87,15 +87,14 @@ steps in order to visualize the model mesh:
   to the `OUTPUT_FILES/` folder. In this folder you should
   see two file-bundles called `reg_.._vp.vtk` and `reg_.._vs.vtk`, which are
   the combined data files that we produced in the previous step. In order to
-  visualize the `vp` velocity model, click the pluss sign next to the 
-  `reg_.._vp.vtk` bundle, select all the files in the bundle by holding down
-  shift, and then click `OK`.
+  visualize the `vp` velocity model, press and hold the `ctrl` key and select the three
+  files `reg_1_vp.vtk`, `reg_2_vp.vtk`, `reg_3_vp.vtk`, and then click `OK`.
 
   Now that we have loaded the model, click `Apply` on the left-hand side in the
   `Properties` menu, and the model will appear.
 
   In order to see the model mesh, select the three model files in the
-  `Pipeline-Browser` by holding down shift. Then go to the top menu and select
+  `Pipeline-Browser` by holding down `ctrl`. Then go to the top menu and select
   `Filter -> Common -> Group Datasets`, and click `Apply` in the `Properties`
   menu. With `GroupDatasets1` selected in the `Pipeline-Browser` go to the
   drop-down menu which says `Surface` and select `Surface With Edges`.
