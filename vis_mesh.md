@@ -72,7 +72,18 @@ steps in order to visualize the model mesh:
 
 * **Step 3: Visualize using Paraview**
 
-  Start `Paraview`, click the `Open` button in the top left corner, and navigate
+  In order to start `Paraview`, we first need to load the module
+
+  ```shell
+        module load paraview
+  ```
+  Then run the following command in the terminal to launch the program
+
+  ```shell
+        paraview
+  ```
+
+  Once `Paraview` is running, click the `Open` button in the top left corner, and navigate
   to the `OUTPUT_FILES/` folder. In this folder you should
   see two file-bundles called `reg_.._vp.vtk` and `reg_.._vs.vtk`, which are
   the combined data files that we produced in the previous step. In order to

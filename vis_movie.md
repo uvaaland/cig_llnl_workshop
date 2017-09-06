@@ -90,7 +90,13 @@ visualize the surface movie:
 
 * **Step 3: Visualize using Paraview**
 
-  Start `Paraview`, click the `Open` button in the top left corner, and
+  Start `Paraview` by typing the following command in the terminal
+
+  ```shell
+        paraview
+  ```
+  
+  Once `Paraview` is running, click the `Open` button in the top left corner, and
   navigate to the `OUTPUT_FILES/` folder. In this folder you should see 
   a file-bundle called `AVS_movie_*.inp`, which is the formatted movie 
   data that we generated in the previous step.
