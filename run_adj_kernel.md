@@ -55,8 +55,9 @@ instructions on how to run adjoint simulations for sources, please consult the
 
 ---
 In this section, we have looked at how to run a kernel simulation using
-SPECFEM3D_GLOBE.
+SPECFEM3D_GLOBE, and this concludes the tutorial.
 
-In the next section we will 
+The next section contains a list of suggestions of further work that you can
+try if you have completed the tutorial up until this point.
 
 [Previous section](/prepare_adj_source.md) -- [Next section](/further_work.md)
