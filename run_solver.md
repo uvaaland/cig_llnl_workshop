@@ -53,9 +53,7 @@ script we use for this task is the `submit_solver` script:
       
       srun -n 144 ./bin/xspecfem3D
 ```
-
-As in the previous section, we need to modify this file such that `path/to/specfem3d_globe`
-is the path to the current working directory.
+**NOTE:** As in the previous section, we need to modify this file such that `path/to/specfem3d_globe` is the path to the current working directory.
 
 We submit the job by typing in the command line
 
