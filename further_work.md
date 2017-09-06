@@ -20,12 +20,12 @@ the following tasks:
 
       # number of elements at the surface along the two sides of the first chunk
       # (must be multiple of 16 and 8 * multiple of NPROC below)
-      NEX_XI                          = 256
-      NEX_ETA                         = 256
+      NEX_XI                          = 192
+      NEX_ETA                         = 192
   
       # number of MPI processors along the two sides of the first chunk
-      NPROC_XI                        = 16
-      NPROC_ETA                       = 16
+      NPROC_XI                        = 12
+      NPROC_ETA                       = 12
 
   **Recall:** `#processors = NPROC_XI * NPROC_ETA * NCHUNKS`
 
