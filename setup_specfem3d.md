@@ -21,6 +21,12 @@ needed to set up SPECFEM3D_GLOBE:
 * Configuration
 * Compilation
 
+First, change directory to your directory on the parallel file system (e.g. `/p/lscratchh/vaaland1/`, which is where we will be working in this tutorial.
+
+```shell
+      cd /p/lscratchh/USERNAME/
+```
+
 ### Obtain the Source Code <a name="source_code"></a>
 
 For this workshop we will get the source code by cloning this [GitHub repository](https://github.com/uvaaland/specfem3d_globe):
