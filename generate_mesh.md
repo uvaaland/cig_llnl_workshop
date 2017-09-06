@@ -55,7 +55,7 @@ The number of processors is determined by the parameters that we set in the
 
       #processors = NPROC_XI * NPROC_ETA * NCHUNKS
 
-which for the `Par_file` on the previous page becomes `8 * 8 * 1 = 64`
+which for the `Par_file` on the previous page becomes `12 * 12 * 1 = 144`
 processors. In order to submit our job, we type the following in the command line
 
 ```shell
