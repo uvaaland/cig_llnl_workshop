@@ -63,7 +63,7 @@ We submit the job by typing in the command line
 
 and monitor the job by typing `squeue`.
 
-This simulation will take about XX minutes to finish. Once the job is done, the
+The solver should take ~8 minutes to finish. Once the job is done, the
 results can be found in the `OUTPUT_FILES/` folder. Check the
 `OUTPUT_FILES/output_solver.txt` file to make sure that the solver ran
 successfully.

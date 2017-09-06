@@ -69,9 +69,7 @@ we can then monitor the job by typing `squeue`.
 </p>
 
 
-Once the job has finished, the output can be found in the `OUTPUT_FILES/`
-folder. We can check to see if the mesher ran successfully by inspecting the
-`OUTPUT_FILES/output_mesher.txt` file.
+The mesher should take ~30-60 seconds to finish. Once the job has finished, the output can be found in the `OUTPUT_FILES/` folder. We can check to see if the mesher ran successfully by inspecting the `OUTPUT_FILES/output_mesher.txt` file.
 
 This file contains information about the mesh, including the number of spectral 
 elements in the mesh, and the size of the time step that will be used when 
