@@ -111,7 +111,7 @@ files can be found in the `bin/` folder.
 depend upon the parameters set in the `Par_file`. This means that if you change any
 parameter in the `Par_file` after compiling SPECFEM3D_GLOBE, you should
 recompile the code. Recompile the code by running `make clean` and
-`make` in the root folder.
+`make all` in the root folder.
 
 ---
 In this section we have looked at how to set up, configure, and compile

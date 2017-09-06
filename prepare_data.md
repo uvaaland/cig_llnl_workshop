@@ -143,7 +143,7 @@ set up the simulation, we need to:
 
 **NOTE:** As mentioned in the previous section, if you make any changes to the
 `Par_file` after compiling SPECFEM3D_GLOBE, you need to recompile the package by
-running `make clean` and `make` in the root folder.
+running `make clean` and `make all` in the root folder.
 
 ---
 In this section, we have looked at how to provide the input data that is

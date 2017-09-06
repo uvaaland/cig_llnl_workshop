@@ -64,7 +64,7 @@ to `.false.` as follows:
       ...
 
 Changing `ATTENUATION` to `.false` requires that we recompile the code.
-Therefore, we need to run `make clean` followed by `make` in the root folder
+Therefore, we need to run `make clean` followed by `make all` in the root folder
 and allow the compilation to complete.
 
 After the code has compiled, we can go ahead and run the forward simulation 
