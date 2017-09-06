@@ -59,13 +59,13 @@ set up the simulation, we need to:
 
       Station    Network    Latitude(degrees)    Longitude(degrees)    Elevation(m)    Burial(m)
 
-  For the South Napa earthquake, the `STATIONS` file has ??? stations:
+  For the South Napa earthquake, the `STATIONS` file has 4270 stations:
 
-      A22        GY       37.9293     58.1125     662.9    21.8
-      AAE        IU        9.0292     38.7656    2442.0     0.0
-      AAUS       AF        9.0349     38.7665    2437.8     0.0
-      ABKAR      KZ       49.2558     59.9431     362.0     0.0
-      ABKT       II       37.9304     58.1189     678.0     7.0
+      034A       TA       27.0647    -98.6833     155.0     0.0
+      035A       TA       26.9379    -98.1023      29.0     0.0
+      035Z       TA       26.4630    -98.0683      19.0     0.0
+      058A       TA       27.0569    -81.8049      15.0     0.0
+      059A       TA       26.9671    -81.1440      11.0     0.0
       ...
       WLF        GE       49.6646      6.1526     295.0     0.0
       YNDE       AF        3.8700     11.4560     717.0     0.0
