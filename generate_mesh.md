@@ -48,7 +48,7 @@ scheduler:
 ```
 
 **NOTE:** We need to modify this file such that `path/to/specfem3d_globe` is the path to
-the current working directory.
+the current working directory (e.g. `/p/lscratchh/vaaland1/specfem3d_globe/`).
 
 The number of processors is determined by the parameters that we set in the
 `Par_file`

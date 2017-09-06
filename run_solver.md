@@ -53,7 +53,7 @@ script we use for this task is the `submit_solver` script:
       
       srun -n 144 ./bin/xspecfem3D
 ```
-**NOTE:** As in the previous section, we need to modify this file such that `path/to/specfem3d_globe` is the path to the current working directory.
+**NOTE:** As in the previous section, we need to modify this file such that `path/to/specfem3d_globe` is the path to the current working directory (e.g. `/p/lscratchh/vaaland1/specfem3d_globe/`).
 
 We submit the job by typing in the command line
 
