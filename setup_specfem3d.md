@@ -32,7 +32,7 @@ First, change directory to your directory on the parallel file system (e.g. `/p/
 For this workshop we will get the source code by cloning this [GitHub repository](https://github.com/uvaaland/specfem3d_globe):
 
 ```shell
-      git clone https://github.com/uvaaland/specfem3d_globe.git
+      git clone --depth=1 https://github.com/uvaaland/specfem3d_globe.git
 ```
 
 In general, the current, stable release of SPECFEM3D_GLOBE can be downloaded at
