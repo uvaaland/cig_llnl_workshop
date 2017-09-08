@@ -16,3 +16,6 @@
 ### SPECFEM3D_GLOBE Manual
 * [PDF version](https://geodynamics.org/cig/software/specfem3d_globe/specfem3d_globe-manual.pdf)
 * [HTML version](http://specfem3d-globe.readthedocs.io/en/latest/)
+
+
+### Papers
