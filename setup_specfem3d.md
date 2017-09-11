@@ -58,6 +58,8 @@ highlighted in the following tree-structure:
       +-- OUTPUT_FILES/
       +-- DATABASES_MPI/
       +-- SEM/
+      +-- sumbit_mesher
+      +-- submit_solver
       +-- combine_data.py
       +-- gen_adj_source.py
       +-- seisplot.py
@@ -74,6 +76,8 @@ highlighted in the following tree-structure:
 * **OUTPUT_FILES/:** Folder where the output seismograms are stored
 * **DATABASES_MPI/:** Folder where the mesh partitions are stored
 * **SEM/:** Folder where the adjoint sources are generated
+* submit_mesher: job submission script for mesher routine
+* submit_solver: job submission script for solver routine
 * combine_data.py: script for combining volumetric data files
 * gen_adj_source.py: script for generating adjoint sources
 * seisplot.py: script for plotting seismograms using ObsPy
