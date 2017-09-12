@@ -18,4 +18,9 @@
 * [HTML version](http://specfem3d-globe.readthedocs.io/en/latest/)
 
 
+### Paraview
+* [Official website](https://www.paraview.org/)
+* [Tutorial](https://www.paraview.org/Wiki/The_ParaView_Tutorial)
+
+
 ### Papers
