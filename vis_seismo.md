@@ -42,7 +42,7 @@ virtual environment. We do this by running the following command:
       alias python3 /usr/apps/specfem/python/bin/python3
 ```
 
-For example, if we want to visualize the seismograms `IU.ANMO.BXZ.sem.sac`, 
+Now, if we want to visualize the seismograms `IU.ANMO.BXZ.sem.sac`, 
 `II.PFO.BXZ.sem.sac`, and `IU.TUC.BXZ.sem.sac`, we would type
 
 ```shell
