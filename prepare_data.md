@@ -59,19 +59,20 @@ set up the simulation, we need to:
 
       Station    Network    Latitude(degrees)    Longitude(degrees)    Elevation(m)    Burial(m)
 
-  For the South Napa earthquake, the `STATIONS` file has 4270 stations:
+  For the South Napa earthquake, the `STATIONS` file has 167 stations from the
+  Global Seismographic Network (GSN):
 
-      034A       TA       27.0647    -98.6833     155.0     0.0
-      035A       TA       26.9379    -98.1023      29.0     0.0
-      035Z       TA       26.4630    -98.0683      19.0     0.0
-      058A       TA       27.0569    -81.8049      15.0     0.0
-      059A       TA       26.9671    -81.1440      11.0     0.0
+      AAE        IU        9.0292     38.7656    2442.0     0.0
+      AAK        II       42.6390     74.4940    1645.0    30.0
+      ABKT       II       37.9304     58.1189     678.0     7.0
+      ABPO       II      -19.0180     47.2290    1528.0     5.3
+      ADK        IU       51.8823   -176.6842     130.0     0.0
       ...
-      WLF        GE       49.6646      6.1526     295.0     0.0
-      YNDE       AF        3.8700     11.4560     717.0     0.0
-      ZKR        GE       35.1147     26.2170     270.0     0.0
-      ZRNK       KZ       52.9510     69.0043     380.0     0.0
-      ZRN        KZ       52.9510     69.0043     420.0     0.0
+      XMAS       IU        2.0448   -157.4457      19.0     1.0
+      XPF        II       33.6092   -116.4533    1280.0   100.0
+      XPFO       II       33.6107   -116.4555    1280.0     0.0
+      YAK        IU       62.0310    129.6805     110.0    14.0
+      YSS        IU       46.9587    142.7604     148.0     2.0
 
   More station information can be found on the [FDSN webpage](http://www.fdsn.org/).
 
