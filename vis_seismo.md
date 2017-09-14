@@ -35,6 +35,13 @@ as follows:
       python3 seisplot.py [seismogram_file_names]
 ```
 
+Since ObsPy is not available on Quartz by default, we must run it through a
+virtual environment. We do this by running the following command:
+
+```shell
+      alias python3 /usr/apps/specfem/python/bin/python3
+```
+
 For example, if we want to visualize the seismograms `IU.ANMO.BXZ.sem.sac`, 
 `II.PFO.BXZ.sem.sac`, and `IU.TUC.BXZ.sem.sac`, we would type
 
