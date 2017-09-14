@@ -37,6 +37,7 @@ scheduler:
       #SBATCH -N 4
       #SBATCH --ntasks-per-node=36
       #SBATCH -t 00:30:00
+      #SBATCH -p pReserved
       
       # load appropriate compilers/libraries
       module load intel/16.0.4
