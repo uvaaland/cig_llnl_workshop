@@ -37,25 +37,25 @@ file.
 For example, in the `DATA/STATIONS` file we have the following list of
 available stations:
 
-      A22        GY       37.9293     58.1125     662.9    21.8
       AAE        IU        9.0292     38.7656    2442.0     0.0
-      AAUS       AF        9.0349     38.7665    2437.8     0.0
-      ABKAR      KZ       49.2558     59.9431     362.0     0.0
+      AAK        II       42.6390     74.4940    1645.0    30.0
       ABKT       II       37.9304     58.1189     678.0     7.0
+      ABPO       II      -19.0180     47.2290    1528.0     5.3
+      ADK        IU       51.8823   -176.6842     130.0     0.0
       ...
-      WLF        GE       49.6646      6.1526     295.0     0.0
-      YNDE       AF        3.8700     11.4560     717.0     0.0
-      ZKR        GE       35.1147     26.2170     270.0     0.0
-      ZRNK       KZ       52.9510     69.0043     380.0     0.0
-      ZRN        KZ       52.9510     69.0043     420.0     0.0
+      XMAS       IU        2.0448   -157.4457      19.0     1.0
+      XPF        II       33.6092   -116.4533    1280.0   100.0
+      XPFO       II       33.6107   -116.4555    1280.0     0.0
+      YAK        IU       62.0310    129.6805     110.0    14.0
+      YSS        IU       46.9587    142.7604     148.0     2.0
 
-Say we want to use the `AZ.BZN`, `BK.CVS`, and `CI.VOG` stations as adjoint sources
+Say we want to use the `IU.ANMO`, `II.PFO`, and `IU.TUC` stations as adjoint sources
 in the kernel simulation. Then, we copy these lines from the `DATA/STATIONS` file and
 paste them into the `DATA/STATIONS_ADJOINT` file:
 
-      CVS        BK       38.3453   -122.4584     295.1    23.2
-      VOG        CI       36.3210   -119.3823      90.0     0.0
-      BZN        AZ       33.4915   -116.6670    1301.0     0.0
+      ANMO       IU       34.9459   -106.4572    1750.0   100.0
+      PFO        II       33.6092   -116.4553    1280.0     0.0
+      TUC        IU       32.3098   -110.7847     909.0     1.0
 
 Then we need to generate these two adjoint sources by running the
 `gen_adj_source.py` script from the root folder. The usage for this script is
@@ -65,11 +65,11 @@ as follows
       python3 gen_adj_source.py [station_file_names]
 ```
 
-In order to generate the `AZ.BZN`, `BK.CVS`, and `CI.VOG` sources, we need to provide the path
+In order to generate the `IU.ANMO`, `II.PFO`, and `IU.TUC` sources, we need to provide the path
 to the associated output seismograms
 
 ```shell
-      python3 gen_adj_source.py ./OUTPUT_FILES/AZ.BZN.BX*.ascii ./OUTPUT_FILES/BK.CVS.BX*.ascii ./OUTPUT_FILES/CI.VOG.BX*.ascii
+      python3 gen_adj_source.py ./OUTPUT_FILES/IU.ANMO.BX*.ascii ./OUTPUT_FILES/II.PFO.BX*.ascii ./OUTPUT_FILES/IU.TUC.BX*.ascii
 ```
 
 **NOTE:** The asterix `*` in the above command is used to include all the
@@ -79,18 +79,18 @@ all the component files for the kernel simulation to work.
 This script then copies the relevant seismograms, renames them, and stores them
 in the `SEM/` folder. To check that the adjoint sources were successfully
 generated, inspect this folder to check that there are three component
-files associated with each adjoint source. In the example case with the `AZ.BZN`,
-`BK.CVS`, and `CI.VOG` sources, we expect to see the following files in the `SEM/` folder:
+files associated with each adjoint source. In the example case with the `IU.ANMO`,
+`II.PFO`, and `IU.TUC` sources, we expect to see the following files in the `SEM/` folder:
 
-      AZ.BZN.BXE.adj
-      AZ.BZN.BXN.adj
-      AZ.BZN.BXZ.adj
-      BK.CVS.BXE.adj
-      BK.CVS.BXN.adj
-      BK.CVS.BXZ.adj
-      CI.VOG.BXE.adj
-      CI.VOG.BXN.adj
-      CI.VOG.BXZ.adj
+      IU.ANMO.BXE.adj
+      IU.ANMO.BXN.adj
+      IU.ANMO.BXZ.adj
+      II.PFO.BXE.adj
+      II.PFO.BXN.adj
+      II.PFO.BXZ.adj
+      IU.TUC.BXE.adj
+      IU.TUC.BXN.adj
+      IU.TUC.BXZ.adj
 
 ---
 In this section, we have looked at how to prepare the adjoint sources that will
