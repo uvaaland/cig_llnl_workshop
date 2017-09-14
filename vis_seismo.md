@@ -35,11 +35,11 @@ as follows:
       python3 seisplot.py [seismogram_file_names]
 ```
 
-For example, if we want to visualize the seismograms `AZ.BZN.BXZ.sem.sac`, 
-`BK.CVS.BXZ.sem.sac`, and `CI.VOG.BXZ.sem.sac`, we would type
+For example, if we want to visualize the seismograms `IU.ANMO.BXZ.sem.sac`, 
+`II.PFO.BXZ.sem.sac`, and `IU.TUC.BXZ.sem.sac`, we would type
 
 ```shell
-      python3 seisplot.py ./OUTPUT_FILES/AZ.BZN.BXZ.sem.sac ./OUTPUT_FILES/BK.CVS.BXZ.sem.sac ./OUTPUT_FILES/CI.VOG.BXZ.sem.sac
+      python3 seisplot.py ./OUTPUT_FILES/IU.ANMO.BXZ.sem.sac ./OUTPUT_FILES/II.PFO.BXZ.sem.sac ./OUTPUT_FILES/IU.TUC.BXZ.sem.sac
 ```
 
 Which will give us the following plot:
