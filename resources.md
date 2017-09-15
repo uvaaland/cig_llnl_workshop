@@ -28,6 +28,8 @@
 
 
 ### Papers
-      D. Komatitsch and J. Tromp. Introduction to the spectral-element method for 3-D seismic wave propagation. Geophys. J. Int., 139 (3):806–822, 1999. doi: 10.1046/j.1365-246x.1999.00967.x.
-      D. Komatitsch and J. Tromp. Introduction to the spectral-element method for 3-D seismic wave propagation. Geophys. J. Int., 139 (3):806–822, 1999. doi: 10.1046/j.1365-246x.1999.00967.x.
-      D. Komatitsch and J. Tromp. Introduction to the spectral-element method for 3-D seismic wave propagation. Geophys. J. Int., 139 (3):806–822, 1999. doi: 10.1046/j.1365-246x.1999.00967.x.
+      - D. Komatitsch and J. Tromp. Introduction to the spectral-element method for 3-D seismic wave propagation. Geophys. J. Int., 139 (3):806–822, 1999. doi: 10.1046/j.1365-246x.1999.00967.x.
+
+      - D. Komatitsch and J. Tromp. Introduction to the spectral-element method for 3-D seismic wave propagation. Geophys. J. Int., 139 (3):806–822, 1999. doi: 10.1046/j.1365-246x.1999.00967.x.
+
+      - D. Komatitsch and J. Tromp. Introduction to the spectral-element method for 3-D seismic wave propagation. Geophys. J. Int., 139 (3):806–822, 1999. doi: 10.1046/j.1365-246x.1999.00967.x.
