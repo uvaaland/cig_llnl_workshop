@@ -17,6 +17,8 @@
 * [PDF version](https://geodynamics.org/cig/software/specfem3d_globe/specfem3d_globe-manual.pdf)
 * [HTML version](http://specfem3d-globe.readthedocs.io/en/latest/)
 
+### SPECFEM3D_GLOBE CIG Tutorial
+* [Global and Regional tutorial](https://wiki.geodynamics.org/software:specfem3d_globe:start)
 
 ### Paraview
 * [Official website](https://www.paraview.org/)
